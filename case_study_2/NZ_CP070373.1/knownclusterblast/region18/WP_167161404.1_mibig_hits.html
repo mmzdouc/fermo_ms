@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>crtaV</td>
+              <td>2Fe-2S_ferredoxin</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001456/1">BGC0001456</a></td>
+              <td>Terpene</td>
+              <td>71.0</td>
+              <td>96.4</td>
+              <td>443.0</td>
+              <td>5.41e-157</td>
+          </tr>
+    
+          <tr>
+              <td>AGS67376.1</td>
+              <td>iron-sulfur_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001227/1">BGC0001227</a></td>
+              <td>Terpene</td>
+              <td>66.0</td>
+              <td>96.4</td>
+              <td>434.0</td>
+              <td>2.49e-153</td>
+          </tr>
+    
+          <tr>
+              <td>BAG23656.1</td>
+              <td>putative_methylesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000664/1">BGC0000664</a></td>
+              <td>Terpene</td>
+              <td>63.0</td>
+              <td>97.6</td>
+              <td>410.0</td>
+              <td>9.02e-144</td>
+          </tr>
+    
+          <tr>
+              <td>BAB69146.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000633/1">BGC0000633</a></td>
+              <td>Terpene</td>
+              <td>65.0</td>
+              <td>94.3</td>
+              <td>406.0</td>
+              <td>6.17e-142</td>
+          </tr>
+    
+          <tr>
+              <td>AAG28702.1</td>
+              <td>CrtV</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000649/1">BGC0000649</a></td>
+              <td>Terpene</td>
+              <td>62.0</td>
+              <td>98.5</td>
+              <td>403.0</td>
+              <td>3.45e-141</td>
+          </tr>
+    
+          <tr>
+              <td>ARS01487.1</td>
+              <td>2Fe-2S_ferredoxin</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001702/1">BGC0001702</a></td>
+              <td>NRP+Polyketide</td>
+              <td>63.0</td>
+              <td>89.9</td>
+              <td>370.0</td>
+              <td>1.6e-128</td>
+          </tr>
+    
+          <tr>
+              <td>ADZ25004.1</td>
+              <td>Rieske_(2Fe-2S)_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000380/1">BGC0000380</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide</td>
+              <td>27.0</td>
+              <td>48.7</td>
+              <td>58.0</td>
+              <td>3.44e-09</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

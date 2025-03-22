@@ -1,0 +1,263 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS19130	4333025	4333511	-	MarR family winged helix-turn-helix transcriptional regulator	
+GWQ54_RS19135	4333984	4334536	-	DUF4383 domain-containing protein	
+GWQ54_RS19140	4334887	4336417	+	SDR family oxidoreductase	
+GWQ54_RS19145	4336545	4337916	+	cryptochrome/photolyase family protein	
+GWQ54_RS19150	4337924	4338926	-	MerR family transcriptional regulator	
+GWQ54_RS19155	4339209	4339818	+	RNA polymerase sigma factor	
+GWQ54_RS19160	4339901	4340909	-	DUF5914 domain-containing protein	
+GWQ54_RS19165	4340908	4341937	-	phytoene/squalene synthase family protein	
+GWQ54_RS19170	4341933	4343469	-	phytoene desaturase family protein	
+GWQ54_RS19175	4343465	4344746	-	polyprenyl synthetase family protein	
+GWQ54_RS19180	4344970	4346158	+	lycopene cyclase family protein	
+GWQ54_RS19185	4346449	4347952	+	NAD(P)/FAD-dependent oxidoreductase	
+GWQ54_RS19190	4348526	4349111	+	sigma-70 family RNA polymerase sigma factor	
+GWQ54_RS19195	4349107	4349863	+	anti-sigma factor	
+GWQ54_RS19200	4350208	4350694	-	peroxiredoxin	
+GWQ54_RS19205	4350795	4351446	-	fasciclin domain-containing protein	
+GWQ54_RS19210	4351558	4353190	-	molybdopterin-dependent oxidoreductase	
+GWQ54_RS19215	4353498	4353816	-	chaplin	
+GWQ54_RS19220	4354106	4354934	-	alpha/beta fold hydrolase	
+GWQ54_RS19225	4355673	4356270	+	fasciclin domain-containing protein	
+GWQ54_RS19230	4356460	4358137	-	molybdopterin-dependent oxidoreductase	
+GWQ54_RS38385	4358743	4358947	+	helix-turn-helix domain-containing protein	
+GWQ54_RS37995	4359045	4359504	-	hypothetical protein	
+GWQ54_RS19240	4359715	4360657	-	hypothetical protein	
+GWQ54_RS19245	4361182	4361599	+	hypothetical protein	
+GWQ54_RS19250	4361547	4362093	-	transposase	
+GWQ54_RS19255	4362093	4362633	-	GNAT family N-acetyltransferase	
+GWQ54_RS19260	4362819	4363263	-	lytic transglycosylase domain-containing protein	
+GWQ54_RS19265	4364753	4365263	-	hypothetical protein	
+GWQ54_RS19270	4365329	4365695	+	MerR family transcriptional regulator	
+GWQ54_RS19275	4365958	4366263	+	transposase	
+GWQ54_RS19280	4366383	4366932	+	GNAT family N-acetyltransferase	
+GWQ54_RS19285	4367515	4368070	-	GNAT family N-acetyltransferase	
+GWQ54_RS19290	4368214	4368418	-	MbtH family protein	
+GWQ54_RS19295	4368556	4388593	-	non-ribosomal peptide synthase/polyketide synthase	
+GWQ54_RS19300	4388606	4407176	-	non-ribosomal peptide synthetase	
+GWQ54_RS19305	4407424	4408780	-	serine hydrolase domain-containing protein	
+GWQ54_RS19310	4408882	4410094	-	cytochrome P450	
+GWQ54_RS19315	4412572	4412884	+	hypothetical protein	
+GWQ54_RS19320	4413118	4414000	+	alpha/beta fold hydrolase	
+GWQ54_RS19325	4415088	4417434	-	protein translocase subunit SecD	
+GWQ54_RS19330	4417533	4417911	-	hypothetical protein	
+GWQ54_RS19335	4418079	4418370	-	hypothetical protein	
+GWQ54_RS38000	4418637	4418889	+	transposase	
+GWQ54_RS38005	4419761	4419821	+	hypothetical protein	
+GWQ54_RS38010	4420054	4420213	-	hypothetical protein	
+GWQ54_RS19350	4420290	4420899	+	helix-turn-helix domain-containing protein	
+GWQ54_RS19355	4421244	4423065	+	zinc-ribbon domain-containing protein	
+GWQ54_RS19360	4423953	4424526	+	dihydrofolate reductase family protein	
+GWQ54_RS19365	4424785	4425073	-	hypothetical protein	
+GWQ54_RS38015	4425534	4425759	-	SAM-dependent methyltransferase	
+
+
+Significant hits: 
+1. BGC0000633	carotenoid
+2. BGC0001227	isorenieratene
+3. BGC0001456	isorenieratene
+4. BGC0000664	isorenieratene
+5. BGC0000649	carotenoid
+6. BGC0000065	rustmicin
+7. BGC0000636	carotenoid
+
+
+Details:
+
+>>
+1. BGC0000633
+Source: carotenoid
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 3178.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAB69138.1	BAB69138.1	1	363	+	hypothetical_protein
+BAB69139.1	BAB69139.1	419	967	-	integral_membrane_protein
+BAB69140.1	BAB69140.1	1122	2624	-	phytoene_desaturase
+BAB69141.1	BAB69141.1	2678	3409	-	methyltransferase
+BAB69142.1	BAB69142.1	3453	4799	-	lycopene_cyclase
+BAB69143.1	BAB69143.1	5061	6200	+	geranylgeranyl_pyrophosphase_synthase
+BAB69144.1	BAB69144.1	6197	7738	+	phytoene_synthase
+BAB69145.1	BAB69145.1	7735	8763	+	phytoene_synthase
+BAB69146.1	BAB69146.1	8760	9839	+	methyltransferase
+BAB69147.1	BAB69147.1	10060	12159	-	secreted_protein
+BAB69148.1	BAB69148.1	12242	14284	-	beta-galactosidase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19160	BAB69146.1	65	406	94.32835820895522	6.17e-142
+GWQ54_RS19165	BAB69145.1	79	466	89.76608187134502	1.24e-165
+GWQ54_RS19170	BAB69144.1	79	794	96.08610567514677	1.06e-289
+GWQ54_RS19175	BAB69143.1	55	344	82.62910798122066	5.52e-116
+GWQ54_RS19180	BAB69142.1	63	471	98.73417721518987	2.85e-165
+GWQ54_RS19185	BAB69140.1	73	697	98.8	6.57e-252
+
+
+
+>>
+2. BGC0001227
+Source: isorenieratene
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2974.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19160	B446_02720	66	434	96.41791044776119	2.49e-153
+GWQ54_RS19165	B446_02725	70	413	92.98245614035088	5.05e-145
+GWQ54_RS19170	B446_02730	75	719	93.9334637964775	3.05e-260
+GWQ54_RS19175	B446_02735	51	329	90.14084507042254	2.43e-109
+GWQ54_RS19180	B446_02740	57	427	98.73417721518987	1.42e-148
+GWQ54_RS19185	B446_02750	67	652	98.2	2.77e-233
+
+
+
+>>
+3. BGC0001456
+Source: isorenieratene
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 3419.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+crtaV	crtaV	1	1017	-	2Fe-2S_ferredoxin
+crtaB	crtaB	1014	2045	-	phytoene_/_squalene_synthase
+crtaI	crtaI	2042	3586	-	phytoene_desaturase
+crtaE	crtaE	3583	4974	-	geranylgeranyl_pyrophosphate_synthase
+crtaQ	crtaQ	5310	5930	+	RNA_polymerase,_sigma-24_subunit
+crtaY	crtaY	6172	7362	+	lycopene_cyclase
+crtaT	crtaT	7418	8152	+	methyltransferase
+crtaU	crtaU	8149	9777	+	isorenieratene_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19155	crtaQ	54	161	85.64356435643565	7.57e-50
+GWQ54_RS19160	crtaV	71	443	96.41791044776119	5.41e-157
+GWQ54_RS19165	crtaB	77	456	91.22807017543859	8.12e-162
+GWQ54_RS19170	crtaI	78	803	98.43444227005871	1.72e-293
+GWQ54_RS19175	crtaE	57	372	85.68075117370893	1.61e-125
+GWQ54_RS19180	crtaY	63	479	98.73417721518987	3.03e-169
+GWQ54_RS19185	crtaU	72	705	98.6	1.94e-254
+
+
+
+>>
+4. BGC0000664
+Source: isorenieratene
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2952.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19160	SGR_6827	63	410	97.61194029850746	9.02e-144
+GWQ54_RS19165	SGR_6828	68	433	99.12280701754386	7.29e-153
+GWQ54_RS19170	SGR_6829	76	766	97.4559686888454	7.66e-279
+GWQ54_RS19175	SGR_6830	49	289	85.91549295774648	7.74e-94
+GWQ54_RS19180	SGR_6824	55	395	98.9873417721519	4.43e-136
+GWQ54_RS19185	SGR_6826	69	659	98.6	1.42e-236
+
+
+
+>>
+5. BGC0000649
+Source: carotenoid
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2879.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAG28698.1	AAG28698.1	149	1771	+	FadD
+AAG28699.1	AAG28699.1	2343	3620	+	CrtE
+AAG28700.1	AAG28700.1	3617	5140	+	CrtI
+AAG28701.1	AAG28701.1	5137	6165	+	CrtB
+AAG28702.1	AAG28702.1	6162	7178	+	CrtV
+AAG28703.1	AAG28703.1	7228	8781	-	CrtU
+AAG28704.1	AAG28704.1	8781	9509	-	CrtT
+AAG28705.1	AAG28705.1	9506	10747	-	CrtY
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19160	AAG28702.1	62	403	98.50746268656717	3.45e-141
+GWQ54_RS19165	AAG28701.1	69	395	91.22807017543859	5.61e-138
+GWQ54_RS19170	AAG28700.1	76	764	97.4559686888454	6.27e-278
+GWQ54_RS19175	AAG28699.1	46	270	85.91549295774648	1.67e-86
+GWQ54_RS19180	AAG28705.1	54	391	98.9873417721519	2.9e-134
+GWQ54_RS19185	AAG28703.1	69	656	98.6	2.24e-235
+
+
+
+>>
+6. BGC0000065
+Source: rustmicin
+Type: Polyketide:Iterative type I polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 439.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADE22325.1	ADE22325.1	316	882	-	transcriptional_regulator
+ADE22326.1	ADE22326.1	1377	2183	+	dehydrogenase
+ADE22327.1	ADE22327.1	2493	3554	+	oxidoreductase
+ADE22328.1	ADE22328.1	3617	4534	+	hydrolase
+ADE22329.1	ADE22329.1	4877	5941	-	DNA_binding_protein
+ADE22330.1	ADE22330.1	6089	7318	+	O-methyltransferase
+ADE22331.1	ADE22331.1	7494	8156	+	GalG
+ADE22332.1	ADE22332.1	8134	9288	-	GalH
+ADE22333.1	ADE22333.1	9291	10400	-	GalI
+ADE22334.1	ADE22334.1	10393	10695	-	GalJ
+ADE22335.1	ADE22335.1	10692	11582	-	GalK
+ADE22336.1	ADE22336.1	11621	12706	-	Rieske_domain_protein
+ADE22337.1	ADE22337.1	12735	14207	-	cytochrome_P450-type_monooxygenase
+ADE22338.1	ADE22338.1	14204	15139	-	KS_fold_with_no_cysteine_catalytic_residue;_a_partner_of_GalB
+ADE22339.1	ADE22339.1	15243	21389	-	iterative_type_I_PKS_(highly_reducing_type)
+ADE22340.1	ADE22340.1	21458	22963	-	standing_alone_acyltransferase_working_with_iterative_type_I_PKS,_GalB
+ADE22341.1	ADE22341.1	23673	25190	+	oxidoreductase
+ADE22342.1	ADE22342.1	25426	26265	-	transcriptional_regulator
+ADE22343.1	ADE22343.1	26351	27316	+	dehydratase
+ADE22344.1	ADE22344.1	27474	28811	+	transport_protein
+ADE22345.1	ADE22345.1	28883	30217	+	dehydratase
+ADE22346.1	ADE22346.1	31383	32459	-	transcriptional_regulator
+ADE22347.1	ADE22347.1	32684	33256	-	transcriptional_regulator
+ADE22348.1	ADE22348.1	33666	34529	+	lipoprotein
+ADE22349.1	ADE22349.1	34559	35158	+	peptidase
+ADE22350.1	ADE22350.1	35163	35615	+	unknown
+ADE22351.1	ADE22351.1	36047	36994	-	fatty_acid_desaturase
+ADE22352.1	ADE22352.1	37173	38183	-	oxidoreductase
+ADE22353.1	ADE22353.1	38315	39454	+	unknown
+ADE22354.1	ADE22354.1	40619	41591	-	unknown
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19150	ADE22346.1	51	289	94.5945945945946	6.15e-96
+GWQ54_RS19155	ADE22347.1	51	150	88.11881188118812	5.59e-46
+
+
+
+>>
+7. BGC0000636
+Source: carotenoid
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 856.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF65580.1	AAF65580.1	1	1373	+	hypothetical_protein
+AAF65581.1	AAF65581.1	1535	2434	+	phytoene_synthase
+AAF65582.1	AAF65582.1	2431	4017	+	phytoene_desaturase
+AAF65583.1	AAF65583.1	4044	4856	-	hypothetical_protein
+AAF65584.1	AAF65584.1	4923	6386	-	hypothetical_DNA_photolyase
+AAF65585.1	AAF65585.1	6386	6904	-	hypothetical_protein
+AAF65586.1	AAF65586.1	6951	8504	-	betacarotene_desaturase
+AAF65587.1	AAF65587.1	8501	8824	-	lycopene_cyclase
+AAF65588.1	AAF65588.1	8814	9191	-	lycopene_cyclase
+AAF65589.1	AAF65589.1	9188	10417	-	hypothetical_protein
+AAF65590.1	AAF65590.1	10414	11571	-	GGPP_synthase
+AAF65591.1	AAF65591.1	11471	12019	-	isopentenyl_diphosphate_isomerase
+AAF65592.1	AAF65592.1	12190	13446	+	hypothetical_protein
+AAF65593.1	AAF65593.1	13472	14167	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS19140	AAF65580.1	50	439	88.01571709233792	1.22e-150
+GWQ54_RS19185	AAF65586.1	49	417	98.0	2.66e-141
+

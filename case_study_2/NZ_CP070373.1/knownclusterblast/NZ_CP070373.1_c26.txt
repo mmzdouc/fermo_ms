@@ -1,0 +1,129 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS24610	5586600	5587077	+	Lrp/AsnC family transcriptional regulator	
+GWQ54_RS24615	5587117	5587810	+	HAD family hydrolase	
+GWQ54_RS24620	5588021	5589074	+	chitinase	
+GWQ54_RS38545	5589161	5589638	-	luciferase family protein	
+GWQ54_RS24630	5590108	5590336	+	type A2 lantipeptide	
+GWQ54_RS24635	5590439	5591246	+	HlyD family efflux transporter periplasmic adaptor subunit	
+GWQ54_RS24640	5591374	5593519	+	NHLP family bacteriocin export ABC transporter peptidase/permease/ATPase subunit	
+
+
+Significant hits: 
+1. BGC0002497	hexacosalactone A
+2. BGC0001196	desotamide
+3. BGC0002657	deoxyhangtaimycin
+
+
+Details:
+
+>>
+1. BGC0002497
+Source: hexacosalactone A
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1476.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+QQZ01610.1	QQZ01610.1	1220	2611	+	PucR_family_transcriptional_regulator
+QQZ01611.1	QQZ01611.1	2820	3626	+	methyltransferase
+QQZ01612.1	QQZ01612.1	3755	5215	-	PucR_family_transcriptional_regulator
+QQZ01613.1	QQZ01613.1	5327	6289	+	agmatinase
+QQZ01614.1	QQZ01614.1	6282	7823	+	nitrate_reductase
+QQZ01615.1	QQZ01615.1	7831	8475	+	cyclase_family_protein
+QQZ01616.1	QQZ01616.1	8502	8909	+	ketosteroid_isomerase
+QQZ01617.1	QQZ01617.1	8906	10354	+	gamma-aminobutyraldehyde_dehydrogenase
+QQZ01618.1	QQZ01618.1	10443	10949	+	GNAT_family_N-acetyltransferase
+QQZ01619.1	QQZ01619.1	11118	11900	+	SGNH_hydrolase
+QQZ01620.1	QQZ01620.1	11939	12931	+	PHB_depolymerase_family_esterase
+QQZ01621.1	QQZ01621.1	13100	14641	-	long-chain_fatty_acid--CoA_ligase
+QQZ01622.1	QQZ01622.1	14638	16179	-	amide_synthase
+QQZ01623.1	QQZ01623.1	16440	17687	+	5-aminolevulinate_synthase
+QQZ01624.1	QQZ01624.1	17881	18852	+	malonyl_transferase
+QQZ01625.1	QQZ01625.1	18849	19916	+	arylcarboxylate_reductase
+QQZ01626.1	QQZ01626.1	20214	38417	+	PKS
+QQZ01627.1	QQZ01627.1	38512	58281	+	PKS
+QQZ01628.1	QQZ01628.1	58283	69223	+	PKS
+QQZ01629.1	QQZ01629.1	69292	86676	+	PKS
+QQZ01630.1	QQZ01630.1	86799	87647	+	methyltransferase
+QQZ01631.1	QQZ01631.1	87858	88700	+	aldo/keto_reductase
+QQZ01632.1	QQZ01632.1	88834	89535	+	alpha/beta_hydrolase
+QQZ01633.1	QQZ01633.1	89610	90305	-	hypothetical_protein
+QQZ01634.1	QQZ01634.1	90758	92431	+	ABC_transporter
+QQZ01635.1	QQZ01635.1	92838	99962	+	PKS
+QQZ01636.1	QQZ01636.1	99959	104554	+	PKS
+QQZ01637.1	QQZ01637.1	104551	104901	+	acyl_carrier_protein
+QQZ01638.1	QQZ01638.1	104905	105837	+	alpha/beta_hydrolase
+QQZ01639.1	QQZ01639.1	105834	107174	+	glycosyltransferase
+QQZ01640.1	QQZ01640.1	107171	108292	+	glycosyltransferase
+QQZ01641.1	QQZ01641.1	108334	109350	+	permease
+QQZ01642.1	QQZ01642.1	109347	110120	+	TIGR03943_family_protein
+QQZ01643.1	QQZ01643.1	110186	110980	-	SDR_family_oxidoreductase
+QQZ01644.1	QQZ01644.1	111096	113600	-	glycosyl_hydrolase
+QQZ01645.1	QQZ01645.1	114092	115228	-	amidase_domain-containing_protein
+QQZ01646.1	QQZ01646.1	115356	116579	-	cytochrome_P450
+QQZ01647.1	QQZ01647.1	116752	117360	+	etR/AcrR_family_transcriptional_regulator
+QQZ01648.1	QQZ01648.1	117657	119285	+	PucR_family_transcriptional_regulator
+QQZ01649.1	QQZ01649.1	119673	120701	+	glutathionyl-hydroquinone_reductase
+QQZ01650.1	QQZ01650.1	121488	122294	+	HlyD_family_efflux_transporter
+QQZ01651.1	QQZ01651.1	122429	124573	+	ABC_transporter
+QQZ01652.1	QQZ01652.1	125365	127440	+	ABC_transporter
+QQZ01653.1	QQZ01653.1	127460	129025	-	MFS_transporter
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS24635	QQZ01650.1	63	315	100.0	1.5e-108
+GWQ54_RS24640	QQZ01651.1	85	1161	100.0	0.0
+
+
+
+>>
+2. BGC0001196
+Source: desotamide
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 567.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AJW76700.1	AJW76700.1	1	1425	+	hypothetical_protein
+AJW76701.1	AJW76701.1	1483	1965	+	transcriptional_regulator
+AJW76702.1	AJW76702.1	1979	2680	+	hydrolase
+AJW76703.1	AJW76703.1	2774	3691	-	DsaA
+AJW76704.1	AJW76704.1	4368	5180	-	DsaB
+AJW76705.1	AJW76705.1	5249	5752	-	DsaC
+AJW76706.1	AJW76706.1	5749	6882	-	DsaD
+AJW76707.1	AJW76707.1	6995	7369	-	DsaE
+AJW76708.1	AJW76708.1	7474	7683	-	DsaF
+AJW76709.1	AJW76709.1	7768	15696	-	DsaG
+AJW76710.1	AJW76710.1	15838	22605	-	DsaH
+AJW76711.1	AJW76711.1	23190	30323	-	DsaI
+AJW76712.1	AJW76712.1	30474	31883	-	DsaJ
+AJW76713.1	AJW76713.1	32053	34812	-	DsaK
+AJW76714.1	AJW76714.1	34818	35498	-	DsaL
+AJW76715.1	AJW76715.1	35916	37127	+	DsaM
+AJW76716.1	AJW76716.1	37124	37783	+	DsaN
+AJW76717.1	AJW76717.1	37956	38405	-	DsaO
+AJW76718.1	AJW76718.1	38845	39531	+	DsaP
+AJW76719.1	AJW76719.1	40541	41680	+	DsaQ
+AJW76720.1	AJW76720.1	41677	43233	+	ATP-binding_protein
+AJW76721.1	AJW76721.1	43223	45196	+	inner-membrane_translocator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS24610	AJW76701.1	90	275	98.10126582278481	2.37e-96
+GWQ54_RS24615	AJW76702.1	68	292	98.26086956521739	9.87e-101
+
+
+
+>>
+3. BGC0002657
+Source: deoxyhangtaimycin
+Type: Polyketide+NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS24610	CP982_37535	94	287	100.0	7.02e-101
+GWQ54_RS24615	CP982_37530	61	263	97.3913043478261	2.86e-89
+

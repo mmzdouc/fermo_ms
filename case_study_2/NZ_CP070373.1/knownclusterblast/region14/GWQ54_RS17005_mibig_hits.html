@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAX31566.1</td>
+              <td>probable_regulatory_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000336/1">BGC0000336</a></td>
+              <td>NRP</td>
+              <td>61.0</td>
+              <td>100.0</td>
+              <td>71.0</td>
+              <td>4e-16</td>
+          </tr>
+    
+          <tr>
+              <td>ABW11820.1</td>
+              <td>transcriptional_regulator,_LuxR_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001197/1">BGC0001197</a></td>
+              <td>Polyketide</td>
+              <td>56.0</td>
+              <td>96.7</td>
+              <td>63.0</td>
+              <td>2.33e-13</td>
+          </tr>
+    
+          <tr>
+              <td>CBW54659.1</td>
+              <td>LuxR_like_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000971/1">BGC0000971</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide</td>
+              <td>60.0</td>
+              <td>90.2</td>
+              <td>62.0</td>
+              <td>4.29e-13</td>
+          </tr>
+    
+          <tr>
+              <td>ACG70813.1</td>
+              <td>transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000938/1">BGC0000938</a></td>
+              <td>Other:Aminocoumarin</td>
+              <td>45.0</td>
+              <td>98.4</td>
+              <td>56.0</td>
+              <td>6.13e-11</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ14055.1</td>
+              <td>regulatory_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000406/1">BGC0000406</a></td>
+              <td>NRP</td>
+              <td>46.0</td>
+              <td>88.5</td>
+              <td>47.0</td>
+              <td>9.64e-08</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

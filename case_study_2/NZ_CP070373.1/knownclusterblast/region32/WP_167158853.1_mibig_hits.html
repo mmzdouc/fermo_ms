@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>PVC99870.1</td>
+              <td>PLP-dependent_aminotransferase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002100/1">BGC0002100</a></td>
+              <td>NRP+Other</td>
+              <td>49.0</td>
+              <td>98.3</td>
+              <td>401.0</td>
+              <td>2.12e-136</td>
+          </tr>
+    
+          <tr>
+              <td>ATU31807.1</td>
+              <td>GntR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001814/1">BGC0001814</a></td>
+              <td>NRP</td>
+              <td>49.0</td>
+              <td>98.3</td>
+              <td>399.0</td>
+              <td>3.19e-135</td>
+          </tr>
+    
+          <tr>
+              <td>ALV86860.1</td>
+              <td>Tlo14</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001406/1">BGC0001406</a></td>
+              <td>NRP</td>
+              <td>50.0</td>
+              <td>97.2</td>
+              <td>391.0</td>
+              <td>2.89e-132</td>
+          </tr>
+    
+          <tr>
+              <td>QUJ09151.1</td>
+              <td>Lon4</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002440/1">BGC0002440</a></td>
+              <td>NRP</td>
+              <td>49.0</td>
+              <td>99.8</td>
+              <td>389.0</td>
+              <td>2.11e-131</td>
+          </tr>
+    
+          <tr>
+              <td>BCN13468.1</td>
+              <td>DNA-binding_domain/PLP-dependent_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002458/1">BGC0002458</a></td>
+              <td>NRP</td>
+              <td>41.0</td>
+              <td>95.3</td>
+              <td>299.0</td>
+              <td>1.99e-96</td>
+          </tr>
+    
+          <tr>
+              <td>WP_053138398.1</td>
+              <td>PLP-dependent_aminotransferase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002033/1">BGC0002033</a></td>
+              <td>Polyketide</td>
+              <td>40.0</td>
+              <td>86.3</td>
+              <td>266.0</td>
+              <td>3.01e-83</td>
+          </tr>
+    
+          <tr>
+              <td>AYM52869.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001964/1">BGC0001964</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>91.8</td>
+              <td>201.0</td>
+              <td>1.42e-58</td>
+          </tr>
+    
+          <tr>
+              <td>AFV52118.1</td>
+              <td>putative_GntR_transcriptional_regulator/aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000081/1">BGC0000081</a></td>
+              <td>NRP+Polyketide:Iterative type I polyketide+Polyketide:Enediyne type I polyketide</td>
+              <td>35.0</td>
+              <td>82.2</td>
+              <td>180.0</td>
+              <td>5.54e-51</td>
+          </tr>
+    
+          <tr>
+              <td>EFQ61005.1</td>
+              <td>transcriptional_regulator,_GntR_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001488/1">BGC0001488</a></td>
+              <td>Other</td>
+              <td>28.0</td>
+              <td>92.9</td>
+              <td>119.0</td>
+              <td>7.55e-29</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

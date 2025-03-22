@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>QOE83921.1</td>
+              <td>putative_multidrug-efflux_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002051/1">BGC0002051</a></td>
+              <td>NRP</td>
+              <td>42.0</td>
+              <td>89.8</td>
+              <td>259.0</td>
+              <td>9.11e-82</td>
+          </tr>
+    
+          <tr>
+              <td>ADY76677.1</td>
+              <td>exporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000950/1">BGC0000950</a></td>
+              <td>NRP:Uridylpeptide+Other:Nucleoside</td>
+              <td>40.0</td>
+              <td>88.5</td>
+              <td>247.0</td>
+              <td>4.16e-77</td>
+          </tr>
+    
+          <tr>
+              <td>OAL11432.1</td>
+              <td>MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001570/1">BGC0001570</a></td>
+              <td>NRP</td>
+              <td>40.0</td>
+              <td>88.7</td>
+              <td>242.0</td>
+              <td>4.76e-75</td>
+          </tr>
+    
+          <tr>
+              <td>ABW87798.1</td>
+              <td>SpcT</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000715/1">BGC0000715</a></td>
+              <td>Saccharide</td>
+              <td>39.0</td>
+              <td>89.3</td>
+              <td>230.0</td>
+              <td>1.49e-70</td>
+          </tr>
+    
+          <tr>
+              <td>ADN26239.1</td>
+              <td>major_facilitator_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000951/1">BGC0000951</a></td>
+              <td>NRP</td>
+              <td>38.0</td>
+              <td>82.4</td>
+              <td>221.0</td>
+              <td>1.05e-67</td>
+          </tr>
+    
+          <tr>
+              <td>AAD45543.1</td>
+              <td>SpcT</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000716/1">BGC0000716</a></td>
+              <td>Saccharide</td>
+              <td>37.0</td>
+              <td>88.2</td>
+              <td>216.0</td>
+              <td>3.26e-65</td>
+          </tr>
+    
+          <tr>
+              <td>AET51866.1</td>
+              <td>transmembrane_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001138/1">BGC0001138</a></td>
+              <td>Other:Nucleoside</td>
+              <td>33.0</td>
+              <td>87.4</td>
+              <td>192.0</td>
+              <td>4.93e-56</td>
+          </tr>
+    
+          <tr>
+              <td>CAD62203.1</td>
+              <td>Ata9_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000873/1">BGC0000873</a></td>
+              <td>Other</td>
+              <td>34.0</td>
+              <td>90.6</td>
+              <td>188.0</td>
+              <td>2.16e-54</td>
+          </tr>
+    
+          <tr>
+              <td>ABY83147.1</td>
+              <td>Azi8</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000960/1">BGC0000960</a></td>
+              <td>NRP+Polyketide</td>
+              <td>32.0</td>
+              <td>92.4</td>
+              <td>167.0</td>
+              <td>2.54e-46</td>
+          </tr>
+    
+          <tr>
+              <td>WP_051700109.1</td>
+              <td>MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001368/1">BGC0001368</a></td>
+              <td>NRP</td>
+              <td>32.0</td>
+              <td>88.2</td>
+              <td>164.0</td>
+              <td>1.58e-45</td>
+          </tr>
+    
+          <tr>
+              <td>BAO84873.1</td>
+              <td>major_facilitator_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000414/1">BGC0000414</a></td>
+              <td>NRP</td>
+              <td>31.0</td>
+              <td>86.9</td>
+              <td>159.0</td>
+              <td>8.87e-44</td>
+          </tr>
+    
+          <tr>
+              <td>ACG70823.1</td>
+              <td>putative_antibiotic_transport_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000938/1">BGC0000938</a></td>
+              <td>Other:Aminocoumarin</td>
+              <td>32.0</td>
+              <td>83.0</td>
+              <td>125.0</td>
+              <td>3.91e-31</td>
+          </tr>
+    
+          <tr>
+              <td>AEE65510.1</td>
+              <td>integral_membrane_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000223/1">BGC0000223</a></td>
+              <td>Polyketide:Type II polyketide</td>
+              <td>28.0</td>
+              <td>88.7</td>
+              <td>83.0</td>
+              <td>9.76e-17</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

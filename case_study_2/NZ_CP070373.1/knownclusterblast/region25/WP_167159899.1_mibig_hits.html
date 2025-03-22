@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CBG70285.1</td>
+              <td>putative_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002089/1">BGC0002089</a></td>
+              <td>NRP</td>
+              <td>74.0</td>
+              <td>94.4</td>
+              <td>580.0</td>
+              <td>4.52e-209</td>
+          </tr>
+    
+          <tr>
+              <td>AAW49313.1</td>
+              <td>nitric_oxide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000444/1">BGC0000444</a></td>
+              <td>NRP</td>
+              <td>71.0</td>
+              <td>94.4</td>
+              <td>555.0</td>
+              <td>3.54e-199</td>
+          </tr>
+    
+          <tr>
+              <td>QLM04708.1</td>
+              <td>8-AzgA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002508/1">BGC0002508</a></td>
+              <td>Alkaloid</td>
+              <td>59.0</td>
+              <td>92.3</td>
+              <td>461.0</td>
+              <td>4.27e-162</td>
+          </tr>
+    
+          <tr>
+              <td>ASX95235.1</td>
+              <td>IlaM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001620/1">BGC0001620</a></td>
+              <td>NRP+Polyketide</td>
+              <td>58.0</td>
+              <td>96.4</td>
+              <td>427.0</td>
+              <td>2.69e-148</td>
+          </tr>
+    
+          <tr>
+              <td>BBA20961.1</td>
+              <td>nitric_oxide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001763/1">BGC0001763</a></td>
+              <td>NRP+Polyketide</td>
+              <td>61.0</td>
+              <td>83.4</td>
+              <td>416.0</td>
+              <td>1.6e-144</td>
+          </tr>
+    
+          <tr>
+              <td>WP_051970766.1</td>
+              <td>nitric_oxide_synthase_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002536/1">BGC0002536</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>90.1</td>
+              <td>372.0</td>
+              <td>2.07e-127</td>
+          </tr>
+    
+          <tr>
+              <td>AEE65486.1</td>
+              <td>Nitric-oxide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000223/1">BGC0000223</a></td>
+              <td>Polyketide:Type II polyketide</td>
+              <td>48.0</td>
+              <td>90.3</td>
+              <td>347.0</td>
+              <td>2.09e-117</td>
+          </tr>
+    
+          <tr>
+              <td>ALJ99871.1</td>
+              <td>FlsN1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001904/1">BGC0001904</a></td>
+              <td>Polyketide</td>
+              <td>45.0</td>
+              <td>91.6</td>
+              <td>332.0</td>
+              <td>2.52e-111</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

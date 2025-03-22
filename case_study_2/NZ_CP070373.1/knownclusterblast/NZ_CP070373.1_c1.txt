@@ -1,0 +1,68 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS01450	318736	319030	-	Dabb family protein	
+GWQ54_RS01455	319128	319290	-	hypothetical protein	
+GWQ54_RS01460	320169	320919	-	GAF and ANTAR domain-containing protein	
+GWQ54_RS01465	320915	321656	-	ANTAR domain-containing protein	
+GWQ54_RS01475	322269	322698	-	tRNA adenosine(34) deaminase TadA	
+GWQ54_RS01480	322742	323291	-	hypothetical protein	
+GWQ54_RS01485	323519	323699	-	hypothetical protein	
+GWQ54_RS01490	323822	324458	+	uracil phosphoribosyltransferase	
+GWQ54_RS01495	324475	325105	-	LytR C-terminal domain-containing protein	
+GWQ54_RS01500	325218	325515	-	type II toxin-antitoxin system VapB family antitoxin	
+GWQ54_RS01505	325611	327315	+	helicase HerA-like domain-containing protein	
+GWQ54_RS01510	327665	328247	-	HhH-GPD-type base excision DNA repair protein	
+GWQ54_RS01515	328597	331066	+	terpene synthase family protein	
+GWQ54_RS01520	331125	332049	+	cation diffusion facilitator family transporter	
+GWQ54_RS01525	332154	333702	+	alpha/beta hydrolase	
+GWQ54_RS01530	333922	334474	+	GNAT family N-acetyltransferase	
+GWQ54_RS01535	334593	335838	-	hypothetical protein	
+GWQ54_RS01540	336406	336925	+	response regulator	
+GWQ54_RS01545	336977	339875	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002669	TVA-YJ-2
+2. BGC0001181	geosmin
+
+
+Details:
+
+>>
+1. BGC0002669
+Source: TVA-YJ-2
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 2487.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+IF43_RS0103430	IF43_RS0103430	7817	8398	-	Fe-S_cluster_assembly_protein_HesB
+IF43_RS38895	IF43_RS38895	9424	9676	-	helix-turn-helix_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS01455	IF43_RS42015	59	61	100.0	1.53e-14
+GWQ54_RS01475	IF43_RS0103390	82	231	100.0	3.25e-79
+GWQ54_RS01480	IF43_RS0103395	67	213	102.74725274725273	6.11e-71
+GWQ54_RS01485	IF43_RS0103400	70	74	111.86440677966101	2.56e-19
+GWQ54_RS01490	IF43_RS0103405	93	390	100.0	6.43e-140
+GWQ54_RS01495	IF43_RS0103410	62	244	101.91387559808614	2.18e-82
+GWQ54_RS01500	IF43_RS0103415	98	198	98.9795918367347	8.3e-68
+GWQ54_RS01505	IF43_RS0103420	79	775	92.7689594356261	1.13e-280
+GWQ54_RS01510	IF43_RS0103430	79	301	100.0	1.92e-105
+
+
+
+>>
+2. BGC0001181
+Source: geosmin
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 961.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAB41566.1	CAB41566.1	1	2181	+	putative_cyclase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS01515	CAB41566.1	66	961	87.71289537712896	0.0
+

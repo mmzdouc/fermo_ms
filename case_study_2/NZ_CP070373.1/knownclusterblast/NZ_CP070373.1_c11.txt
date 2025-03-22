@@ -1,0 +1,28 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS15575	3530277	3530910	-	DNA polymerase ligase N-terminal domain-containing protein	
+GWQ54_RS15580	3531096	3531327	+	chaplin	
+GWQ54_RS15585	3531564	3532980	+	NAD-dependent succinate-semialdehyde dehydrogenase	
+GWQ54_RS15590	3533135	3533963	+	aldo/keto reductase	
+GWQ54_RS15595	3534136	3534769	+	hypothetical protein	
+GWQ54_RS15600	3535110	3536391	+	molybdopterin-dependent oxidoreductase	
+GWQ54_RS15605	3536387	3536885	+	hypothetical protein	
+GWQ54_RS15610	3536900	3537407	-	hypothetical protein	
+GWQ54_RS15615	3537464	3538022	-	hypothetical protein	
+GWQ54_RS15620	3538306	3539605	-	phosphatase PAP2 family protein	
+GWQ54_RS15625	3539933	3540134	+	DUF6229 family protein	
+GWQ54_RS15630	3540267	3543123	+	type 2 lanthipeptide synthetase LanM family protein	
+GWQ54_RS15635	3543156	3544389	-	aromatic acid exporter family protein	
+GWQ54_RS15640	3544559	3546722	+	TerD family protein	
+GWQ54_RS15645	3546920	3547511	+	GNAT family N-acetyltransferase	
+GWQ54_RS15650	3547517	3547757	-	hypothetical protein	
+GWQ54_RS15655	3547899	3550536	-	hypothetical protein	
+GWQ54_RS15660	3550735	3551173	-	ATP-binding protein	
+GWQ54_RS15665	3551245	3552481	-	PP2C family protein-serine/threonine phosphatase	
+
+
+Significant hits: 
+
+
+Details:

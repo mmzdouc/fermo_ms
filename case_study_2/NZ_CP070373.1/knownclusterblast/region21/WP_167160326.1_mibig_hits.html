@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAI63273.1</td>
+              <td>putative_kynurenine_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000434/1">BGC0000434</a></td>
+              <td>NRP</td>
+              <td>61.0</td>
+              <td>96.9</td>
+              <td>471.0</td>
+              <td>1.26e-165</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ34363.1</td>
+              <td>kynurenine_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000445/1">BGC0000445</a></td>
+              <td>NRP:Cyclic depsipeptide</td>
+              <td>60.0</td>
+              <td>97.3</td>
+              <td>455.0</td>
+              <td>3.65e-159</td>
+          </tr>
+    
+          <tr>
+              <td>QWT72282.1</td>
+              <td>pyridoxal_phosphate-dependent_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002430/1">BGC0002430</a></td>
+              <td>NRP+Saccharide</td>
+              <td>33.0</td>
+              <td>90.1</td>
+              <td>173.0</td>
+              <td>1.33e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AAW03321.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000982/1">BGC0000982</a></td>
+              <td>NRP+Polyketide</td>
+              <td>30.0</td>
+              <td>95.2</td>
+              <td>172.0</td>
+              <td>2e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ61870.1</td>
+              <td>aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000240/1">BGC0000240</a></td>
+              <td>Polyketide:Type II polyketide+Saccharide:Hybrid/tailoring saccharide</td>
+              <td>34.0</td>
+              <td>81.1</td>
+              <td>166.0</td>
+              <td>8.95e-47</td>
+          </tr>
+    
+          <tr>
+              <td>AAO78481.1</td>
+              <td>aspartate_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001654/1">BGC0001654</a></td>
+              <td>Saccharide</td>
+              <td>29.0</td>
+              <td>96.4</td>
+              <td>158.0</td>
+              <td>3.7e-44</td>
+          </tr>
+    
+          <tr>
+              <td>QUJ09162.1</td>
+              <td>Lon15</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002440/1">BGC0002440</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>89.6</td>
+              <td>158.0</td>
+              <td>7.52e-44</td>
+          </tr>
+    
+          <tr>
+              <td>AMQ23509.1</td>
+              <td>histidinol-phosphate_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002584/1">BGC0002584</a></td>
+              <td>RiPP</td>
+              <td>30.0</td>
+              <td>79.2</td>
+              <td>94.0</td>
+              <td>5.84e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ACZ13455.1</td>
+              <td>predicted_aspartate_transaminase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000897/1">BGC0000897</a></td>
+              <td>Other</td>
+              <td>31.0</td>
+              <td>89.6</td>
+              <td>94.0</td>
+              <td>7.45e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AZQ75154.1</td>
+              <td>aminotransferase_class_I/II-fold_pyridoxal_phosphate-dependent_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001896/1">BGC0001896</a></td>
+              <td>Other</td>
+              <td>27.0</td>
+              <td>63.7</td>
+              <td>72.0</td>
+              <td>1.45e-13</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19382.1</td>
+              <td>PenI</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002501/1">BGC0002501</a></td>
+              <td>Alkaloid</td>
+              <td>29.0</td>
+              <td>49.9</td>
+              <td>63.0</td>
+              <td>1.78e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ANW12120.1</td>
+              <td>aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001374/1">BGC0001374</a></td>
+              <td>Other</td>
+              <td>28.0</td>
+              <td>45.8</td>
+              <td>54.0</td>
+              <td>1.1e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

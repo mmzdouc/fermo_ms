@@ -1,0 +1,377 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS15825	3577884	3579330	+	sensor histidine kinase	
+GWQ54_RS15830	3579326	3580928	+	fused response regulator/phosphatase	
+GWQ54_RS15835	3581079	3581349	+	hypothetical protein	
+GWQ54_RS15840	3581536	3583129	+	M48 family metalloprotease	
+GWQ54_RS15845	3583139	3584216	+	hypothetical protein	
+GWQ54_RS15850	3584465	3584864	+	peptidase inhibitor family I36 protein	
+GWQ54_RS15855	3585116	3585764	+	HD domain-containing protein	
+GWQ54_RS15860	3585793	3586747	+	GlxA family transcriptional regulator	
+GWQ54_RS15865	3586761	3587133	-	WhiB family transcriptional regulator	
+GWQ54_RS15870	3587365	3589384	-	TOMM precursor leader peptide-binding protein	
+GWQ54_RS15875	3589376	3590801	-	hypothetical protein	
+GWQ54_RS15880	3590850	3592164	-	nitroreductase family protein	
+GWQ54_RS15885	3592160	3593459	-	thiopeptide maturation pyridine synthase	
+GWQ54_RS15890	3593515	3594457	-	lantibiotic dehydratase C-terminal domain-containing protein	
+GWQ54_RS15895	3594450	3597135	-	lantibiotic dehydratase	
+GWQ54_RS15900	3597176	3598523	-	hypothetical protein	
+GWQ54_RS15905	3598519	3599536	-	hypothetical protein	
+GWQ54_RS15910	3599797	3599989	+	thiomuracin/GE37468 family thiazolyl RiPP peptide	
+GWQ54_RS15915	3600134	3601586	+	amidase	
+GWQ54_RS15920	3601729	3602719	-	phospholipase	
+GWQ54_RS15925	3602982	3603828	-	helix-turn-helix transcriptional regulator	
+GWQ54_RS15930	3603972	3604875	+	MBL fold metallo-hydrolase	
+GWQ54_RS15935	3605033	3606473	+	carboxylesterase/lipase family protein	
+GWQ54_RS15940	3606499	3607213	-	glycoside hydrolase family 16 protein	
+GWQ54_RS15945	3607518	3607902	-	DUF4190 domain-containing protein	
+GWQ54_RS15950	3607926	3609402	-	radical SAM protein	
+GWQ54_RS15955	3609581	3610145	-	TetR/AcrR family transcriptional regulator	
+GWQ54_RS15960	3610277	3611000	+	alpha/beta fold hydrolase	
+GWQ54_RS15965	3611082	3611613	+	carbonic anhydrase	
+GWQ54_RS15970	3611671	3612856	-	serine hydrolase domain-containing protein	
+GWQ54_RS15975	3613156	3613933	+	isocitrate lyase/PEP mutase family protein	
+GWQ54_RS15980	3614159	3616226	+	SpoIIE family protein phosphatase	
+GWQ54_RS15985	3616267	3616723	-	ATP-binding protein	
+GWQ54_RS15990	3616790	3617663	-	UbiA family prenyltransferase	
+GWQ54_RS15995	3617744	3618806	+	type III polyketide synthase	
+GWQ54_RS16000	3618812	3619334	+	isoprenylcysteine carboxyl methyltransferase family protein	
+GWQ54_RS16005	3619330	3620344	+	NAD(P)/FAD-dependent oxidoreductase	
+GWQ54_RS16010	3620793	3621939	+	globin domain-containing protein	
+GWQ54_RS16015	3621935	3622592	+	pyridoxamine 5'-phosphate oxidase family protein	
+GWQ54_RS16020	3622811	3623396	+	TerD family protein	
+GWQ54_RS16025	3623461	3623950	-	beta-class carbonic anhydrase	
+GWQ54_RS16030	3624256	3625072	+	DUF427 domain-containing protein	
+GWQ54_RS16035	3625037	3625874	-	glutathione S-transferase C-terminal domain-containing protein	
+GWQ54_RS38355	3626423	3626552	+	hypothetical protein	
+GWQ54_RS16040	3626721	3627513	+	GNAT family N-acetyltransferase	
+GWQ54_RS16045	3627810	3629022	+	LLM class flavin-dependent oxidoreductase	
+GWQ54_RS16050	3629043	3630417	+	NtaA/DmoA family FMN-dependent monooxygenase	
+GWQ54_RS16055	3630540	3631668	+	LLM class flavin-dependent oxidoreductase	
+GWQ54_RS16060	3631733	3632876	-	homoserine O-acetyltransferase MetX	
+GWQ54_RS16065	3632881	3634243	-	bifunctional o-acetylhomoserine/o-acetylserine sulfhydrylase	
+GWQ54_RS16070	3634792	3635962	-	FAD-dependent oxidoreductase	
+GWQ54_RS16075	3636231	3636837	-	TetR/AcrR family transcriptional regulator	
+GWQ54_RS16080	3637006	3638470	+	amidase	
+
+
+Significant hits: 
+1. BGC0000282	alkylresorcinol
+2. BGC0001647	lagunapyrone A/lagunapyrone B/lagunapyrone C
+3. BGC0001831	alkylpyrone-407/alkylpyrone-393
+4. BGC0001964	alkylpyrone-407/alkylpyrone-393
+5. BGC0001719	olimycin A/olimycin B
+6. BGC0001119	divergolide A/divergolide B/divergolide C/divergolide D
+7. BGC0001533	borrelidin
+8. BGC0000031	borrelidin
+
+
+Details:
+
+>>
+1. BGC0000282
+Source: alkylresorcinol
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1074.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15995	SGR_472	64	444	100.28328611898016	1.16e-156
+GWQ54_RS16000	SGR_471	70	237	94.79768786127167	9.24e-81
+GWQ54_RS16005	SGR_470	63	393	100.0	3.3e-137
+
+
+
+>>
+2. BGC0001647
+Source: lagunapyrone A/lagunapyrone B/lagunapyrone C
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 637.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15995	STBA_03890	60	393	100.0	9.08e-137
+GWQ54_RS16000	STBA_03880	68	244	98.26589595375722	2.16e-83
+
+
+
+>>
+3. BGC0001831
+Source: alkylpyrone-407/alkylpyrone-393
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 479.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15995	MXAN_6639	50	314	99.43342776203966	2.02e-105
+GWQ54_RS16000	MXAN_6638	56	165	87.86127167630057	6.57e-52
+
+
+
+>>
+4. BGC0001964
+Source: alkylpyrone-407/alkylpyrone-393
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 475.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AYM52838.1	AYM52838.1	1	419	+	hypothetical_protein
+AYM52839.1	AYM52839.1	487	1146	-	hypothetical_protein
+AYM52840.1	AYM52840.1	1427	3628	+	sensor_protein
+AYM52841.1	AYM52841.1	3671	4225	-	2'-5'_RNA_ligase
+AYM52842.1	AYM52842.1	4251	4793	-	membrane-bound_metal-dependent_hydrolase
+AYM52843.1	AYM52843.1	4873	6114	+	adenylate_cyclase_1
+AYM52844.1	AYM52844.1	6184	7617	-	prolyl-tRNA_synthetase
+AYM52845.1	AYM52845.1	7745	8440	+	hypothetical_protein
+AYM52846.1	AYM52846.1	8584	9213	+	hypothetical_protein
+AYM52847.1	AYM52847.1	9326	10201	+	endonuclease/exonuclease/phosphatase_family_protein
+AYM52848.1	AYM52848.1	10211	10765	-	hypothetical_protein
+AYM52849.1	AYM52849.1	11086	11658	+	hypothetical_protein
+AYM52850.1	AYM52850.1	11666	12259	-	MarR_family_transcriptional_regulator
+AYM52851.1	AYM52851.1	12264	13079	+	molybdenum_ABC_transporter_periplasmic_molybdate-binding_protein
+AYM52852.1	AYM52852.1	13061	13756	+	molybdate_ABC_transporter_permease
+AYM52853.1	AYM52853.1	13777	14844	+	molybdate_ABC_transporter_ATP-binding_protein
+AYM52854.1	AYM52854.1	14857	15519	-	pentapeptide_repeat-containing_protein
+AYM52855.1	AYM52855.1	15749	18169	-	isoamylase
+AYM52856.1	AYM52856.1	18424	18912	-	3-demethylubiquinone-9_3-methyltransferase
+AYM52857.1	AYM52857.1	19155	19463	+	hypothetical_protein
+AYM52858.1	AYM52858.1	20001	21089	+	chalcone/stilbene_synthase_family_protein
+AYM52859.1	AYM52859.1	21083	21658	+	hypothetical_protein
+AYM52860.1	AYM52860.1	21651	21926	+	acyl_carrier_protein
+AYM52861.1	AYM52861.1	21923	23677	+	AMP-binding_protein
+AYM52862.1	AYM52862.1	23765	24862	+	monooxygenase_FAD-binding_protein
+AYM52863.1	AYM52863.1	24925	25554	+	hypothetical_protein
+AYM52864.1	AYM52864.1	25701	27176	+	DNA/RNA_non-specific_endonuclease
+AYM52865.1	AYM52865.1	27235	27561	-	transcriptional_regulator_protein
+AYM52866.1	AYM52866.1	27702	28697	+	hypothetical_protein
+AYM52867.1	AYM52867.1	29094	29594	-	hypothetical_protein
+AYM52868.1	AYM52868.1	29622	30332	-	NIPSNAP_family_containing_protein
+AYM52869.1	AYM52869.1	30400	31914	+	hypothetical_protein
+AYM52870.1	AYM52870.1	31996	32373	+	transcriptional_regulator_ArsR_family
+AYM52871.1	AYM52871.1	32370	32834	+	hypothetical_protein
+AYM52872.1	AYM52872.1	32980	33465	+	hypothetical_protein
+AYM52873.1	AYM52873.1	33438	34508	+	hypothetical_protein
+AYM52874.1	AYM52874.1	34598	35176	-	hypothetical_protein
+AYM52875.1	AYM52875.1	35230	36270	-	methyltransferase_type_12
+AYM52876.1	AYM52876.1	36740	38059	+	response_regulator
+AYM52877.1	AYM52877.1	38108	38749	-	hypothetical_protein
+AYM52878.1	AYM52878.1	38807	39289	+	hypothetical_protein
+AYM52879.1	AYM52879.1	39344	39949	+	ahpC/TSA_family_protein
+AYM52880.1	AYM52880.1	40198	40713	+	lipoprotein
+AYM52881.1	AYM52881.1	40849	41089	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15995	AYM52858.1	49	317	99.43342776203966	9.41e-107
+GWQ54_RS16000	AYM52859.1	54	158	91.90751445086705	1.96e-49
+
+
+
+>>
+5. BGC0001719
+Source: olimycin A/olimycin B
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1757.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+QIE07113.1	QIE07113.1	1	1194	+	OvmA
+QIE07114.1	QIE07114.1	1175	1825	-	OvmB
+QIE07115.1	QIE07115.1	2875	3807	-	OvmC
+QIE07116.1	QIE07116.1	3846	5216	-	OvmD
+QIE07117.1	QIE07117.1	5338	6891	-	OvmE
+QIE07118.1	QIE07118.1	6897	7229	-	OvmF
+QIE07119.1	QIE07119.1	7413	8642	+	OvmG
+QIE07120.1	QIE07120.1	8792	9703	+	OvmH
+QIE07121.1	QIE07121.1	9688	10353	+	OvmI
+QIE07122.1	QIE07122.1	10478	11377	+	OvmJ
+QIE07123.1	QIE07123.1	11652	14318	+	OvmK1
+QIE07124.1	QIE07124.1	14294	19309	+	OvmK2
+QIE07125.1	QIE07125.1	18610	20334	+	OvmK3
+QIE07126.1	QIE07126.1	19572	27347	+	OvmK4
+QIE07127.1	QIE07127.1	27344	33973	+	OvmL1
+QIE07128.1	QIE07128.1	34045	39396	+	OvmL2
+QIE07129.1	QIE07129.1	39393	44939	+	OvmL3
+QIE07130.1	QIE07130.1	44966	46099	+	OvmL4
+QIE07131.1	QIE07131.1	46096	54339	+	OvmM
+QIE07132.1	QIE07132.1	54377	55132	+	OvmN
+QIE07133.1	QIE07133.1	55132	56358	+	OvmO
+QIE07134.1	QIE07134.1	56486	57250	+	OvmP
+QIE07135.1	QIE07135.1	57317	58417	-	OvmQ
+QIE07136.1	QIE07136.1	58644	60005	+	OvmR
+QIE07137.1	QIE07137.1	60012	61013	+	OvmS
+QIE07138.1	QIE07138.1	61010	61870	+	OvmT
+QIE07139.1	QIE07139.1	62259	65060	+	OvmU
+QIE07140.1	QIE07140.1	65109	65738	+	OvmV
+QIE07141.1	QIE07141.1	66055	66753	-	Ovm1
+QIE07142.1	QIE07142.1	66863	67825	+	Ovm2
+QIE07143.1	QIE07143.1	68178	68852	+	OvmW
+QIE07144.1	QIE07144.1	69471	70277	+	Ovm3
+QIE07145.1	QIE07145.1	70629	71828	+	OvmX
+QIE07146.1	QIE07146.1	71848	73227	+	OvmY
+QIE07147.1	QIE07147.1	73224	74495	+	OvmZ
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS16040	QIE07144.1	70	307	85.55133079847909	1.92e-105
+GWQ54_RS16045	QIE07145.1	80	640	99.50372208436724	8.61e-233
+GWQ54_RS16050	QIE07146.1	88	810	98.24945295404814	4.7e-298
+
+
+
+>>
+6. BGC0001119
+Source: divergolide A/divergolide B/divergolide C/divergolide D
+Type: Polyketide:Modular type I polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1756.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CCP20037.1	CCP20037.1	138	1454	+	divA_protein
+CCP20038.1	CCP20038.1	1491	2507	-	divB_protein
+CCP20039.1	CCP20039.1	2758	3720	-	divC_protein
+CCP20040.1	CCP20040.1	3729	5108	-	divD_protein
+CCP20041.1	CCP20041.1	5221	6759	-	divE_protein
+CCP20042.1	CCP20042.1	6780	7214	-	divF_protein
+CCP20043.1	CCP20043.1	7362	8525	+	divG_protein
+CCP20044.1	CCP20044.1	8522	9586	+	divH_protein
+CCP20045.1	CCP20045.1	9610	10236	+	divI_protein
+CCP20046.1	CCP20046.1	10220	11278	+	divJ_protein
+CCP20047.1	CCP20047.1	11548	27195	+	divK_protein
+CCP20048.1	CCP20048.1	27192	33833	+	divL1_protein
+CCP20049.1	CCP20049.1	33830	39217	+	divL2_protein
+CCP20050.1	CCP20050.1	39214	45816	+	divL3_protein
+CCP20051.1	CCP20051.1	45813	54056	+	divM_protein
+CCP20052.1	CCP20052.1	54094	54849	+	divN_protein
+CCP20053.1	CCP20053.1	54849	56075	+	divO_protein
+CCP20054.1	CCP20054.1	56203	56967	+	divP_protein
+CCP20055.1	CCP20055.1	57034	58221	-	divQ_protein
+CCP20056.1	CCP20056.1	58361	59722	+	divR_protein
+CCP20057.1	CCP20057.1	59729	60730	+	divS_protein
+CCP20058.1	CCP20058.1	60727	61587	+	divT_protein
+CCP20059.1	CCP20059.1	61988	64771	+	divU_protein
+CCP20060.1	CCP20060.1	64820	65449	+	divV_protein
+CCP20061.1	CCP20061.1	66216	66890	+	divW_protein
+CCP20062.1	CCP20062.1	67568	68314	+	divGNAT_protein
+CCP20063.1	CCP20063.1	68640	69839	+	divX_protein
+CCP20064.1	CCP20064.1	69859	71235	+	divY_protein
+CCP20065.1	CCP20065.1	71232	72503	+	divZ_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS16040	CCP20062.1	70	301	85.55133079847909	1.3e-103
+GWQ54_RS16045	CCP20063.1	81	642	99.50372208436724	2.12e-233
+GWQ54_RS16050	CCP20064.1	88	813	98.03063457330416	5.51e-299
+
+
+
+>>
+7. BGC0001533
+Source: borrelidin
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 536.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ALV82340.1	ALV82340.1	26	313	+	hypothetical_protein
+ALV82324.1	ALV82324.1	501	3107	+	hypothetical_protein
+ALV82339.1	ALV82339.1	3162	3800	-	diguanylate_cyclase
+ALV82316.1	ALV82316.1	3925	4893	-	AraC_family_transcriptional_regulator
+ALV82327.1	ALV82327.1	5113	5943	+	chloroperoxidase
+ALV82332.1	ALV82332.1	5951	6457	-	putative_decarboxylase
+ALV82329.1	ALV82329.1	6554	7528	+	hypothetical_protein
+ALV82314.1	ALV82314.1	7593	8387	-	thioesterase
+ALV82322.1	ALV82322.1	8387	9184	-	ketoreductase
+ALV82326.1	ALV82326.1	9234	9986	-	putative_reductase
+ALV82328.1	ALV82328.1	9983	11155	-	putative_muconate_cyclo-isomerase/lactamase
+ALV82333.1	ALV82333.1	11152	11970	-	hypothetical_protein
+ALV82334.1	ALV82334.1	11982	13601	-	putative_acetolactate_synthase
+ALV82343.1	ALV82343.1	13598	15625	-	putative_dehydratase
+ALV82318.1	ALV82318.1	16288	18804	+	borrelidin_type_I_polyketide_synthase
+ALV82346.1	ALV82346.1	18865	23586	+	borrelidin_type_I_polyketide_synthase
+ALV82320.1	ALV82320.1	23682	34184	+	borrelidin_type_I_polyketide_synthase
+ALV82341.1	ALV82341.1	34181	39043	+	borrelidin_type_I_polyketide_synthase
+ALV82345.1	ALV82345.1	39118	45510	+	borrelidin_type_I_polyketide_synthase
+ALV82335.1	ALV82335.1	45510	50738	+	borrelidin_type_I_polyketide_synthase
+ALV82330.1	ALV82330.1	50825	52015	+	putative_cytochrome_P450
+ALV82319.1	ALV82319.1	52109	53473	+	putative_aminotransferase
+ALV82323.1	ALV82323.1	53482	54462	+	putative_oxidoreductase
+ALV82337.1	ALV82337.1	54502	56172	+	hypothetical_protein
+ALV82315.1	ALV82315.1	56177	57094	+	putative_dehydrogenase
+ALV82347.1	ALV82347.1	57108	57854	+	putative_2-hydroxyhept-2,4-diene-1,7-dioate_isomerase
+ALV82331.1	ALV82331.1	57935	59962	+	threonyl-tRNA_synthetase
+ALV82344.1	ALV82344.1	60149	60508	-	hypothetical_protein
+ALV82338.1	ALV82338.1	60616	60999	+	anti-sigma_factor_antagonist
+ALV82342.1	ALV82342.1	61184	61432	+	hypothetical_protein
+ALV82317.1	ALV82317.1	61522	61734	+	hypothetical_protein
+ALV82325.1	ALV82325.1	61763	62224	-	putative_regulatory_protein
+ALV82336.1	ALV82336.1	62582	63064	-	acetyltransferase
+ALV82321.1	ALV82321.1	63152	63655	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15855	ALV82339.1	59	251	96.27906976744185	7.15e-85
+GWQ54_RS15860	ALV82316.1	52	285	98.10725552050474	5.1e-95
+
+
+
+>>
+8. BGC0000031
+Source: borrelidin
+Type: Polyketide:Modular type I polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 535.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAE45653.1	CAE45653.1	2	313	+	hypothetical_protein
+CAE45654.1	CAE45654.1	501	3107	+	hypothetical_protein
+CAE45655.1	CAE45655.1	3172	3810	-	hypothetical_protein
+CAE45656.1	CAE45656.1	3935	4924	-	hypothetical_protein
+CAE45657.1	CAE45657.1	5123	5953	+	hypothetical_protein
+CAE45658.1	CAE45658.1	5961	6518	-	hypothetical_protein
+CAE45659.1	CAE45659.1	6567	7538	+	hypothetical_protein
+CAE45660.1	CAE45660.1	7603	8397	-	thioesterase_type_II
+CAE45661.1	CAE45661.1	8397	9194	-	putative_ketoreductase
+CAE45662.1	CAE45662.1	9244	9996	-	putative_ketoreductase
+CAE45663.1	CAE45663.1	9993	11165	-	putative_muconate_cyclo-isomerase/lactamase
+CAE45664.1	CAE45664.1	11162	11980	-	hypothetical_protein
+CAE45665.1	CAE45665.1	11992	13611	-	putative_acetolactate_synthase
+CAE45666.1	CAE45666.1	13608	15659	-	putative_dehydratase
+CAE45667.1	CAE45667.1	16184	18814	+	borrelidin_polyketide_synthase,_type_I
+CAE45668.1	CAE45668.1	18875	23590	+	borrelidin_polyketide_synthase,_type_I
+CAE45669.1	CAE45669.1	23686	34188	+	borrelidin_polyketide_synthase,_type_I
+CAE45670.1	CAE45670.1	34224	39047	+	borrelidin_polyketide_synthase,_type_I
+CAE45671.1	CAE45671.1	39044	45514	+	borrelidin_polyketide_synthase,_type_I
+CAE45672.1	CAE45672.1	45514	50742	+	Borrelidin_polyketide_synthase,_type_I
+CAE45673.1	CAE45673.1	50739	52019	+	putative_cytochrome_P450
+CAE45674.1	CAE45674.1	52113	53477	+	putative_aminotransferase
+CAE45675.1	CAE45675.1	53474	54466	+	putative_oxidoreductase
+CAE45676.1	CAE45676.1	54506	56176	+	hypothetical_protein
+CAE45677.1	CAE45677.1	56181	57098	+	putative_dehydrogenase
+CAE45678.1	CAE45678.1	57112	57858	+	putative_2-hydroxyhept-2,4-diene-1,7-dioate_isomerase
+CAE45679.1	CAE45679.1	57939	59966	+	Threonyl-tRNA_synthetase
+CAE45680.1	CAE45680.1	60153	60533	-	hypothetical_protein
+CAE45681.1	CAE45681.1	60620	61003	+	hypothetical_protein
+CAE45682.1	CAE45682.1	61188	61436	+	hypothetical_protein
+CAE45683.1	CAE45683.1	61526	61738	+	hypothetical_protein
+CAE45684.1	CAE45684.1	61767	62285	-	hypothetical_protein
+CAE45685.1	CAE45685.1	62586	62885	-	hypothetical_protein
+CAE45686.1	CAE45686.1	62885	63076	-	hypothetical_protein
+CAE45687.1	CAE45687.1	63155	65071	-	hypothetical_protein
+CAE45688.1	CAE45688.1	65374	65871	+	hypothetical_protein
+CAE45689.1	CAE45689.1	65942	68293	-	hypothetical_protein
+CAE45690.1	CAE45690.1	68290	68823	-	hypothetical_protein
+CAE45691.1	CAE45691.1	69681	70436	+	hypothetical_protein
+CAE45692.1	CAE45692.1	70445	71848	+	hypothetical_protein
+CAE45693.1	CAE45693.1	71845	72957	+	hypothetical_protein
+CAE45694.1	CAE45694.1	73037	73942	+	hypothetical_protein
+CAE45695.1	CAE45695.1	73995	74537	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS15855	CAE45655.1	58	248	96.27906976744185	1.17e-83
+GWQ54_RS15860	CAE45656.1	52	287	98.10725552050474	5.59e-96
+

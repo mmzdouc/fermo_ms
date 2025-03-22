@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>DAC74141.1</td>
+              <td>tryptophan_dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002019/1">BGC0002019</a></td>
+              <td>Terpene</td>
+              <td>46.0</td>
+              <td>98.3</td>
+              <td>195.0</td>
+              <td>2.56e-62</td>
+          </tr>
+    
+          <tr>
+              <td>BAI63282.1</td>
+              <td>putative_tryptophan_2,3-dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000434/1">BGC0000434</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>98.3</td>
+              <td>190.0</td>
+              <td>1.96e-60</td>
+          </tr>
+    
+          <tr>
+              <td>BAE98160.1</td>
+              <td>putative_tryptophan_2,3-dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000339/1">BGC0000339</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>94.6</td>
+              <td>172.0</td>
+              <td>1.72e-53</td>
+          </tr>
+    
+          <tr>
+              <td>AFK78081.1</td>
+              <td>epoxidase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000666/1">BGC0000666</a></td>
+              <td>Terpene</td>
+              <td>31.0</td>
+              <td>58.2</td>
+              <td>49.0</td>
+              <td>1.62e-06</td>
+          </tr>
+    
+          <tr>
+              <td>CCH63738.1</td>
+              <td>XiaL_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000665/1">BGC0000665</a></td>
+              <td>Terpene+Alkaloid</td>
+              <td>31.0</td>
+              <td>58.2</td>
+              <td>49.0</td>
+              <td>1.63e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

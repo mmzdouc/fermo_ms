@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>MCG7203799.1</td>
+              <td>flavin_reductase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000248/1">BGC0000248</a></td>
+              <td>Polyketide</td>
+              <td>59.0</td>
+              <td>100.0</td>
+              <td>207.0</td>
+              <td>6.08e-69</td>
+          </tr>
+    
+          <tr>
+              <td>AHL46683.1</td>
+              <td>flavin_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001177/1">BGC0001177</a></td>
+              <td>Polyketide:Type II polyketide</td>
+              <td>52.0</td>
+              <td>89.2</td>
+              <td>157.0</td>
+              <td>3.69e-49</td>
+          </tr>
+    
+          <tr>
+              <td>CAA09661.1</td>
+              <td>putative_FMN:NADH_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000227/1">BGC0000227</a></td>
+              <td>Polyketide:Type II polyketide</td>
+              <td>47.0</td>
+              <td>94.0</td>
+              <td>147.0</td>
+              <td>2.7e-45</td>
+          </tr>
+    
+          <tr>
+              <td>AEI98660.1</td>
+              <td>CtcQ</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000209/1">BGC0000209</a></td>
+              <td>Polyketide</td>
+              <td>44.0</td>
+              <td>94.0</td>
+              <td>142.0</td>
+              <td>5.02e-43</td>
+          </tr>
+    
+          <tr>
+              <td>QXL90849.1</td>
+              <td>flavin_reductase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002426/1">BGC0002426</a></td>
+              <td>NRP</td>
+              <td>38.0</td>
+              <td>97.0</td>
+              <td>123.0</td>
+              <td>5.57e-36</td>
+          </tr>
+    
+          <tr>
+              <td>BCJ07574.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002379/1">BGC0002379</a></td>
+              <td>NRP</td>
+              <td>39.0</td>
+              <td>93.4</td>
+              <td>110.0</td>
+              <td>4.5e-31</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

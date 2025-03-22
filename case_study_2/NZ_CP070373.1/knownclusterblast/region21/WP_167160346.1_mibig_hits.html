@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AME18000.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001378/1">BGC0001378</a></td>
+              <td>Polyketide:Enediyne type I polyketide</td>
+              <td>38.0</td>
+              <td>88.7</td>
+              <td>184.0</td>
+              <td>8.94e-52</td>
+          </tr>
+    
+          <tr>
+              <td>AMK92579.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001377/1">BGC0001377</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>88.4</td>
+              <td>159.0</td>
+              <td>7.85e-43</td>
+          </tr>
+    
+          <tr>
+              <td>QXL90825.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002426/1">BGC0002426</a></td>
+              <td>NRP</td>
+              <td>28.0</td>
+              <td>52.3</td>
+              <td>59.0</td>
+              <td>1.4e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AUI41037.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001512/1">BGC0001512</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>52.3</td>
+              <td>59.0</td>
+              <td>1.91e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AEO12718.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001334/1">BGC0001334</a></td>
+              <td>Alkaloid</td>
+              <td>33.0</td>
+              <td>69.8</td>
+              <td>56.0</td>
+              <td>2.06e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AEF32091.1</td>
+              <td>N-methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001333/1">BGC0001333</a></td>
+              <td>Alkaloid</td>
+              <td>31.0</td>
+              <td>45.1</td>
+              <td>52.0</td>
+              <td>1.85e-07</td>
+          </tr>
+    
+          <tr>
+              <td>MBA5221221.1</td>
+              <td>methyltransferase_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002090/1">BGC0002090</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide</td>
+              <td>35.0</td>
+              <td>25.8</td>
+              <td>52.0</td>
+              <td>7.3e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AGI62227.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001335/1">BGC0001335</a></td>
+              <td>Alkaloid</td>
+              <td>35.0</td>
+              <td>32.7</td>
+              <td>49.0</td>
+              <td>4.8e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

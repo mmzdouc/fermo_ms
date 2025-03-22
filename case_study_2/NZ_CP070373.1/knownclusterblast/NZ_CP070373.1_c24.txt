@@ -1,0 +1,37 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS23520	5329402	5330896	-	hypothetical protein	
+GWQ54_RS23525	5331129	5332260	+	aminoglycoside phosphotransferase family protein	
+GWQ54_RS23530	5332354	5333683	-	N-acetylmuramoyl-L-alanine amidase	
+GWQ54_RS23535	5334003	5334504	-	hypothetical protein	
+GWQ54_RS23540	5334697	5337628	-	ATP-binding protein	
+GWQ54_RS23545	5337890	5338964	+	isoafricanol synthase	
+GWQ54_RS23550	5339074	5339311	-	DUF397 domain-containing protein	
+GWQ54_RS23555	5339448	5340615	-	thiolase domain-containing protein	
+GWQ54_RS23560	5340611	5341673	-	thiolase domain-containing protein	
+GWQ54_RS23565	5341672	5342653	-	Zn-ribbon domain-containing OB-fold protein	
+GWQ54_RS23570	5342971	5343772	-	crotonase/enoyl-CoA hydratase family protein	
+GWQ54_RS23575	5343939	5345562	+	acyl-CoA synthetase	
+GWQ54_RS23580	5345615	5347135	-	alpha/beta hydrolase	
+GWQ54_RS23585	5347358	5348651	+	phenylacetate--CoA ligase PaaK	
+
+
+Significant hits: 
+1. BGC0001746	pristinol
+
+
+Details:
+
+>>
+1. BGC0001746
+Source: pristinol
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 362.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS23545	SSDG_RS31275	55	362	92.99719887955182	6e-124
+

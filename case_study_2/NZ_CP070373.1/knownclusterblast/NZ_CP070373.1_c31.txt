@@ -1,0 +1,228 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS35870	8147018	8147678	-	NUDIX hydrolase	
+GWQ54_RS35875	8148156	8148987	-	endonuclease III	
+GWQ54_RS35880	8150019	8150694	+	Crp/Fnr family transcriptional regulator	
+GWQ54_RS35885	8151035	8151854	+	nucleotidyltransferase domain-containing protein	
+GWQ54_RS35890	8151956	8152787	-	MBL fold metallo-hydrolase	
+GWQ54_RS35895	8152783	8152957	-	hypothetical protein	
+GWQ54_RS35900	8153040	8153925	-	NUDIX hydrolase	
+GWQ54_RS35905	8154238	8154706	-	RidA family protein	
+GWQ54_RS35910	8154702	8154864	-	DUF4177 domain-containing protein	
+GWQ54_RS35915	8155020	8155983	+	ArsA family ATPase	
+GWQ54_RS35920	8155979	8157530	+	ArsA family ATPase	
+GWQ54_RS35925	8157543	8157912	-	WhiB family transcriptional regulator	
+GWQ54_RS35930	8158328	8160605	+	transglycosylase domain-containing protein	
+GWQ54_RS35935	8160759	8161224	-	GatB/YqeY domain-containing protein	
+GWQ54_RS35940	8161302	8162229	+	metallophosphoesterase	
+GWQ54_RS35945	8162328	8163141	+	Pr6Pr family membrane protein	
+GWQ54_RS35955	8163462	8164101	-	TetR/AcrR family transcriptional regulator	
+GWQ54_RS35960	8164789	8165293	-	PaaI family thioesterase	
+GWQ54_RS35965	8165469	8166114	-	TetR/AcrR family transcriptional regulator	
+GWQ54_RS35970	8166231	8170116	-	type I polyketide synthase	
+GWQ54_RS35975	8170403	8171219	+	alpha/beta fold hydrolase	
+GWQ54_RS35980	8171282	8172107	+	oxidoreductase	
+GWQ54_RS35985	8172135	8173371	+	MFS transporter	
+GWQ54_RS35990	8173468	8173933	+	PPOX class F420-dependent oxidoreductase	
+GWQ54_RS35995	8173967	8175113	+	FAD-dependent monooxygenase	
+GWQ54_RS36000	8175141	8176239	+	phenazine biosynthesis protein	
+GWQ54_RS36005	8176239	8177592	+	aldehyde dehydrogenase family protein	
+GWQ54_RS36010	8177634	8178837	+	acyltransferase family protein	
+GWQ54_RS36015	8178963	8179479	+	hypothetical protein	
+GWQ54_RS36020	8179530	8180763	+	3-deoxy-7-phosphoheptulonate synthase	
+GWQ54_RS36025	8180892	8181423	+	hypothetical protein	
+GWQ54_RS36030	8181409	8183113	+	GH3 auxin-responsive promoter family protein	
+GWQ54_RS36035	8183165	8184023	+	class I SAM-dependent methyltransferase	
+GWQ54_RS36040	8184024	8185464	+	NAD(P)/FAD-dependent oxidoreductase	
+GWQ54_RS36045	8185460	8186615	+	hypothetical protein	
+GWQ54_RS36050	8186611	8187367	+	DUF6182 family protein	
+GWQ54_RS36055	8187359	8187998	+	LysR substrate-binding domain-containing protein	
+GWQ54_RS36060	8187994	8188813	+	alpha/beta fold hydrolase	
+GWQ54_RS36065	8188806	8189655	+	class I SAM-dependent methyltransferase	
+
+
+Significant hits: 
+1. BGC0002478	rubiginone A2/rubiginone J/rubiginone K/rubiginone L/rubiginone M/rubiginone N/ochromycinone/rubiginone B2
+2. BGC0000286	viguiepinol
+3. BGC0000662	grixazone A
+4. BGC0000270	simocyclinone D8
+5. BGC0001774	spicamycin
+6. BGC0001302	lomofungin
+
+
+Details:
+
+>>
+1. BGC0002478
+Source: rubiginone A2/rubiginone J/rubiginone K/rubiginone L/rubiginone M/rubiginone N/ochromycinone/rubiginone B2
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 3133.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS36025	AMK11_25690	52	188	97.72727272727273	5.82e-61
+GWQ54_RS36030	AMK11_25685	70	762	97.88359788359789	2.84e-275
+GWQ54_RS36035	AMK11_25680	75	444	99.64912280701755	1.02e-158
+GWQ54_RS36040	AMK11_25675	51	423	102.5052192066806	1.37e-144
+GWQ54_RS36045	AMK11_25670	66	499	96.61458333333334	7.8e-178
+GWQ54_RS36055	AMK11_25660	47	202	100.0	1.2e-65
+GWQ54_RS36060	AMK11_25655	59	256	89.70588235294117	2.16e-85
+GWQ54_RS36065	AMK11_25650	65	359	99.64539007092199	2.41e-125
+
+
+
+>>
+2. BGC0000286
+Source: viguiepinol
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1764.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAD86796.1	BAD86796.1	18	1406	+	putative_P450
+BAD86797.1	BAD86797.1	1414	2949	+	ent-copalyl_diphosphate_synthase
+BAD86798.1	BAD86798.1	2990	3877	+	hypothetical_protein
+BAD86799.1	BAD86799.1	4011	5177	+	geranylgeranyl_diphosphate_synthase
+BAD86800.1	BAD86800.1	5355	6386	+	mevalonate_kinase
+BAD86801.1	BAD86801.1	6379	7431	+	mevalonate_diphosphate_decarboxylase
+BAD86802.1	BAD86802.1	7428	8555	+	phosphomevalonate_kinase
+BAD86803.1	BAD86803.1	8552	9643	+	isopentenyl_diphosphate_isomerase
+BAD86804.1	BAD86804.1	9640	10701	+	3-hydroxy-3-methylglutaryl-CoA_reductase
+BAD86805.1	BAD86805.1	10704	11879	+	3-hydroxy-3-methylglutaryl-CoA_synthase
+BAD86806.1	BAD86806.1	11991	12971	+	putative_3-oxoacyl-[acyl-carrier-protein]
+BAD86807.1	BAD86807.1	13090	13872	+	hypothetical_protein
+BAD86808.1	BAD86808.1	13869	15569	+	hypothetical_protein
+BAD86809.1	BAD86809.1	15566	16432	+	hypothetical_protein
+BAD86810.1	BAD86810.1	16429	17862	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS36025	BAD86807.1	60	207	97.1590909090909	1.5e-67
+GWQ54_RS36030	BAD86808.1	67	722	97.70723104056437	1.23e-259
+GWQ54_RS36035	BAD86809.1	75	439	98.59649122807016	8.72e-157
+GWQ54_RS36040	BAD86810.1	49	396	97.7035490605428	4.96e-134
+
+
+
+>>
+3. BGC0000662
+Source: grixazone A
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 967.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS36000	SGR_4243	65	466	94.79452054794521	3e-165
+GWQ54_RS36005	SGR_4244	59	501	98.88888888888889	3.03e-176
+
+
+
+>>
+4. BGC0000270
+Source: simocyclinone D8
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 793.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAL15580.1	AAL15580.1	1	168	+	Sim2
+AAL15581.1	AAL15581.1	165	1379	+	Sim3
+AAL15582.1	AAL15582.1	1428	1694	+	Sim4
+AAL15583.1	AAL15583.1	1714	2499	+	Sim5
+AAL15584.1	AAL15584.1	2525	3472	+	Sim6
+AAL15585.1	AAL15585.1	3478	4962	+	Sim7
+AAL15586.1	AAL15586.1	5041	5805	+	Sim8
+AAL15587.1	AAL15587.1	5936	6508	+	Sim9
+AAL15588.1	AAL15588.1	6516	7202	+	Sim10
+AAL15589.1	AAL15589.1	7195	8781	+	Sim11
+AAL15590.1	AAL15590.1	8796	9014	+	Sim12
+AAL15591.1	AAL15591.1	9056	9829	+	Sim13
+AAL15592.1	AAL15592.1	9826	11196	+	Sim14
+AAL15593.1	AAL15593.1	11213	12553	+	Sim15
+AAL15594.1	AAL15594.1	12504	13289	-	Sim16
+AAL15595.1	AAL15595.1	13386	14990	+	Sim17
+AAL15596.1	AAL15596.1	15202	16083	+	Sim18
+AAL15597.1	AAL15597.1	16080	16742	+	Sim19
+AAL15598.1	AAL15598.1	16888	17598	+	SimK
+AAL15599.1	AAL15599.1	17635	19194	+	SimL
+AAL15600.1	AAL15600.1	19223	22216	+	SimH
+AAL15601.1	AAL15601.1	22228	23478	+	SimI
+AAL15602.1	AAL15602.1	23515	23727	+	Sim-cB
+AAL15603.1	AAL15603.1	23738	24559	+	SimJ1
+AAL15604.1	AAL15604.1	24729	25484	+	Sim1
+AAL15605.1	AAL15605.1	25806	26546	+	SimJ2
+AAL15606.1	AAL15606.1	26613	28061	+	Sim20
+AAL15607.1	AAL15607.1	28106	29458	+	Sim21
+AAL15608.1	AAL15608.1	29537	29815	+	Sim22
+AAL15609.1	AAL15609.1	29841	30728	+	Sim23
+AAL15610.1	AAL15610.1	30725	31684	+	Sim24
+AAL15611.1	AAL15611.1	32084	32932	+	endonuclease/N-glycosylase
+AAL15612.1	AAL15612.1	32979	33680	+	hypothetical_protein
+AAL15613.1	AAL15613.1	33685	34893	+	serine_proteinase
+AAL15614.1	AAL15614.1	35387	36295	-	hydrolase
+AAL15615.1	AAL15615.1	36319	36807	-	probable_integral_membrane_protein
+AAL15616.1	AAL15616.1	36863	38305	-	sodium/proton_antiporter
+AAL15617.1	AAL15617.1	38511	39428	-	acetyl-coenzyme_A_synthetase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS35870	AAL15612.1	81	373	100.0	6.93e-133
+GWQ54_RS35875	AAL15611.1	78	420	93.47826086956522	1e-149
+
+
+
+>>
+5. BGC0001774
+Source: spicamycin
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 731.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AVM80401.1	AVM80401.1	265	1122	-	SepR
+AVM80384.1	AVM80384.1	3090	3614	+	SepA
+AVM80385.1	AVM80385.1	3611	5734	+	SepB
+AVM80386.1	AVM80386.1	5814	6779	+	SepC
+AVM80387.1	AVM80387.1	6854	7408	+	SepD
+AVM80388.1	AVM80388.1	7546	8571	+	SepE
+AVM80389.1	AVM80389.1	8568	9650	+	SepF
+AVM80390.1	AVM80390.1	9683	10930	+	SepG
+AVM80391.1	AVM80391.1	11001	11996	+	SepH
+AVM80392.1	AVM80392.1	11993	13525	+	SepI
+AVM80393.1	AVM80393.1	13522	14436	+	SepJ
+AVM80394.1	AVM80394.1	14817	16088	+	SepK
+AVM80395.1	AVM80395.1	16085	16948	+	SepL
+AVM80396.1	AVM80396.1	17007	18107	+	SepM
+AVM80397.1	AVM80397.1	18104	18835	+	SepN
+AVM80398.1	AVM80398.1	18832	20469	+	SepO
+AVM80399.1	AVM80399.1	20583	22910	+	SepP
+AVM80400.1	AVM80400.1	22907	23746	+	SepQ
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS36030	AVM80398.1	46	449	96.11992945326278	9.95e-153
+GWQ54_RS36045	AVM80396.1	46	282	92.70833333333334	2.33e-92
+
+
+
+>>
+6. BGC0001302
+Source: lomofungin
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 634.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AKC91612.1	AKC91612.1	11969	12448	+	phenazine_biosynthesis_protein
+AKC91613.1	AKC91613.1	12600	13703	+	phenazine_biosynthesis_protein
+AKC91614.1	AKC91614.1	14042	14374	+	phenazine_biosynthesis_protein
+AKC91615.1	AKC91615.1	14491	16284	+	2-amino-2-deoxy-isochorismate_synthase_PhzE
+AKC91616.1	AKC91616.1	16642	17475	+	2,3-dihydro-3-hydroxyanthranilateisomerase
+AKC91617.1	AKC91617.1	17486	18124	+	FMN-dependent_oxidase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS36000	lomo15	47	294	93.15068493150685	7.86e-98
+GWQ54_RS36020	AKC91613.1	51	340	89.02439024390245	6.96e-115
+

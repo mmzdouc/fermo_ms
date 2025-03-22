@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAG23212.1</td>
+              <td>putative_gamma-butyrolactone-binding_protein_homologue</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002673/1">BGC0002673</a></td>
+              <td>Polyketide+Alkaloid</td>
+              <td>64.0</td>
+              <td>96.3</td>
+              <td>266.0</td>
+              <td>6.15e-91</td>
+          </tr>
+    
+          <tr>
+              <td>ABX71096.1</td>
+              <td>Lct13</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000238/1">BGC0000238</a></td>
+              <td>Polyketide</td>
+              <td>50.0</td>
+              <td>96.7</td>
+              <td>197.0</td>
+              <td>1.21e-63</td>
+          </tr>
+    
+          <tr>
+              <td>AGN74906.1</td>
+              <td>gamma-butyrolactone_receptor</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000459/1">BGC0000459</a></td>
+              <td>NRP:Cyclic depsipeptide+Polyketide:Trans-AT type I polyketide</td>
+              <td>45.0</td>
+              <td>96.3</td>
+              <td>168.0</td>
+              <td>3.02e-52</td>
+          </tr>
+    
+          <tr>
+              <td>AGH68917.1</td>
+              <td>TetR-like_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001083/1">BGC0001083</a></td>
+              <td>Terpene+Polyketide:Type III polyketide</td>
+              <td>47.0</td>
+              <td>97.2</td>
+              <td>160.0</td>
+              <td>3.1e-49</td>
+          </tr>
+    
+          <tr>
+              <td>ACO51011.1</td>
+              <td>SabR</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000850/1">BGC0000850</a></td>
+              <td>Other</td>
+              <td>41.0</td>
+              <td>96.3</td>
+              <td>150.0</td>
+              <td>3.6e-45</td>
+          </tr>
+    
+          <tr>
+              <td>CAB60184.1</td>
+              <td>gamma-butyrolactone_binding_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000849/1">BGC0000849</a></td>
+              <td>Other:Butyrolactone</td>
+              <td>39.0</td>
+              <td>99.5</td>
+              <td>144.0</td>
+              <td>4.58e-43</td>
+          </tr>
+    
+          <tr>
+              <td>AEW98154.1</td>
+              <td>KsbA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002642/1">BGC0002642</a></td>
+              <td>Alkaloid</td>
+              <td>41.0</td>
+              <td>86.0</td>
+              <td>134.0</td>
+              <td>1e-38</td>
+          </tr>
+    
+          <tr>
+              <td>QEO75107.1</td>
+              <td>TetR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002079/1">BGC0002079</a></td>
+              <td>NRP:Cyclic depsipeptide</td>
+              <td>35.0</td>
+              <td>88.8</td>
+              <td>110.0</td>
+              <td>9.46e-30</td>
+          </tr>
+    
+          <tr>
+              <td>QEO75013.1</td>
+              <td>omn38</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002078/1">BGC0002078</a></td>
+              <td>NRP:Cyclic depsipeptide</td>
+              <td>33.0</td>
+              <td>89.8</td>
+              <td>108.0</td>
+              <td>3.72e-29</td>
+          </tr>
+    
+          <tr>
+              <td>CAC36768.1</td>
+              <td>putative_2-Alkyl-4-hydroxymethylfuran-3-carboxylic_acid-dependent_transcriptional_regulator_(TetR-family),_MmfR</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000914/1">BGC0000914</a></td>
+              <td>Other</td>
+              <td>36.0</td>
+              <td>80.9</td>
+              <td>96.0</td>
+              <td>5.06e-24</td>
+          </tr>
+    
+          <tr>
+              <td>WP_028847737.1</td>
+              <td>TetR/AcrR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002467/1">BGC0002467</a></td>
+              <td>NRP</td>
+              <td>28.0</td>
+              <td>70.2</td>
+              <td>59.0</td>
+              <td>1.32e-10</td>
+          </tr>
+    
+          <tr>
+              <td>QXL90853.1</td>
+              <td>TetR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002426/1">BGC0002426</a></td>
+              <td>NRP</td>
+              <td>31.0</td>
+              <td>61.4</td>
+              <td>57.0</td>
+              <td>7.01e-10</td>
+          </tr>
+    
+          <tr>
+              <td>WP_005765176.1</td>
+              <td>TetR/AcrR_family_transcriptional_regulator_TvrR</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002571/1">BGC0002571</a></td>
+              <td>NRP</td>
+              <td>39.0</td>
+              <td>26.0</td>
+              <td>46.0</td>
+              <td>5.72e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

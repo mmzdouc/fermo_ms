@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AEG64688.1</td>
+              <td>diaminobutyric_acid_synthase_C</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000379/1">BGC0000379</a></td>
+              <td>NRP</td>
+              <td>50.0</td>
+              <td>97.9</td>
+              <td>322.0</td>
+              <td>7.19e-107</td>
+          </tr>
+    
+          <tr>
+              <td>CAM56769.1</td>
+              <td>DabC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000354/1">BGC0000354</a></td>
+              <td>NRP</td>
+              <td>52.0</td>
+              <td>90.0</td>
+              <td>286.0</td>
+              <td>4.04e-93</td>
+          </tr>
+    
+          <tr>
+              <td>ATL73055.1</td>
+              <td>TotD2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001807/1">BGC0001807</a></td>
+              <td>NRP+Polyketide</td>
+              <td>46.0</td>
+              <td>96.4</td>
+              <td>264.0</td>
+              <td>9.06e-81</td>
+          </tr>
+    
+          <tr>
+              <td>AGC09511.1</td>
+              <td>cysteine_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001183/1">BGC0001183</a></td>
+              <td>Polyketide</td>
+              <td>46.0</td>
+              <td>96.4</td>
+              <td>263.0</td>
+              <td>1.27e-80</td>
+          </tr>
+    
+          <tr>
+              <td>KMO93432.1</td>
+              <td>Cysteine_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002095/1">BGC0002095</a></td>
+              <td>NRP</td>
+              <td>46.0</td>
+              <td>95.7</td>
+              <td>263.0</td>
+              <td>1.55e-80</td>
+          </tr>
+    
+          <tr>
+              <td>ADY76670.1</td>
+              <td>DABA_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000950/1">BGC0000950</a></td>
+              <td>NRP:Uridylpeptide+Other:Nucleoside</td>
+              <td>44.0</td>
+              <td>98.6</td>
+              <td>252.0</td>
+              <td>3.48e-76</td>
+          </tr>
+    
+          <tr>
+              <td>ARU08088.1</td>
+              <td>mlcS</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001448/1">BGC0001448</a></td>
+              <td>NRP:Lipopeptide:Ca+-dependent lipopeptide</td>
+              <td>42.0</td>
+              <td>93.6</td>
+              <td>236.0</td>
+              <td>1.91e-70</td>
+          </tr>
+    
+          <tr>
+              <td>ADN26255.1</td>
+              <td>fusion_protein_containing_a_PLP-dependent_cysteine_synthase_and_an_argininosuccinate_lyase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000951/1">BGC0000951</a></td>
+              <td>NRP</td>
+              <td>40.0</td>
+              <td>95.0</td>
+              <td>222.0</td>
+              <td>3.99e-65</td>
+          </tr>
+    
+          <tr>
+              <td>WP_051801204.1</td>
+              <td>ATP-grasp_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001739/1">BGC0001739</a></td>
+              <td>Other</td>
+              <td>37.0</td>
+              <td>79.2</td>
+              <td>160.0</td>
+              <td>8.75e-45</td>
+          </tr>
+    
+          <tr>
+              <td>AFU82627.1</td>
+              <td>carbamoyl_phosphate_synthetase_like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000998/1">BGC0000998</a></td>
+              <td>NRP+Polyketide</td>
+              <td>38.0</td>
+              <td>84.5</td>
+              <td>150.0</td>
+              <td>1.11e-40</td>
+          </tr>
+    
+          <tr>
+              <td>WP_232247814.1</td>
+              <td>ATP-grasp_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002536/1">BGC0002536</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>84.5</td>
+              <td>140.0</td>
+              <td>1.41e-37</td>
+          </tr>
+    
+          <tr>
+              <td>BCN13439.1</td>
+              <td>ATP-grasp_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002457/1">BGC0002457</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>92.1</td>
+              <td>131.0</td>
+              <td>5.37e-34</td>
+          </tr>
+    
+          <tr>
+              <td>QBF29332.1</td>
+              <td>argininosuccinate_lyase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002294/1">BGC0002294</a></td>
+              <td>Other</td>
+              <td>35.0</td>
+              <td>97.6</td>
+              <td>123.0</td>
+              <td>5.48e-31</td>
+          </tr>
+    
+          <tr>
+              <td>QBA82204.1</td>
+              <td>ATP-grasp_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002313/1">BGC0002313</a></td>
+              <td>Other</td>
+              <td>35.0</td>
+              <td>97.6</td>
+              <td>123.0</td>
+              <td>5.48e-31</td>
+          </tr>
+    
+          <tr>
+              <td>BAL15721.1</td>
+              <td>carbamoyl-phosphate_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000432/1">BGC0000432</a></td>
+              <td>NRP</td>
+              <td>33.0</td>
+              <td>96.4</td>
+              <td>98.0</td>
+              <td>4.29e-22</td>
+          </tr>
+    
+          <tr>
+              <td>AJO72765.1</td>
+              <td>Phosphoribosylglycinamide_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001381/1">BGC0001381</a></td>
+              <td>Polyketide</td>
+              <td>31.0</td>
+              <td>81.6</td>
+              <td>95.0</td>
+              <td>5.09e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ACH85565.1</td>
+              <td>NikS-like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000283/1">BGC0000283</a></td>
+              <td>Other:Cyclitol</td>
+              <td>34.0</td>
+              <td>60.6</td>
+              <td>77.0</td>
+              <td>6.61e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ADB43068.1</td>
+              <td>putative_amino_acid_ligase_of_ATP-grasp_superfamily</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000926/1">BGC0000926</a></td>
+              <td>Other</td>
+              <td>26.0</td>
+              <td>58.9</td>
+              <td>57.0</td>
+              <td>1.65e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AAO78480.1</td>
+              <td>putative_carbamoyl-phosphate-synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001654/1">BGC0001654</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>65.6</td>
+              <td>55.0</td>
+              <td>8.77e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AVT42380.1</td>
+              <td>ATP-grasp_domain_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001476/1">BGC0001476</a></td>
+              <td>Other:Nucleoside</td>
+              <td>32.0</td>
+              <td>35.6</td>
+              <td>54.0</td>
+              <td>1.58e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AFU82630.1</td>
+              <td>carbamoyl_phosphate_synthetase_like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000998/1">BGC0000998</a></td>
+              <td>NRP+Polyketide</td>
+              <td>39.0</td>
+              <td>20.8</td>
+              <td>52.0</td>
+              <td>8.83e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

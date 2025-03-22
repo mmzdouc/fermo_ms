@@ -1,0 +1,198 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS16150	3649370	3649793	+	hypothetical protein	
+GWQ54_RS16155	3650048	3651503	+	pyridoxal phosphate-dependent decarboxylase family protein	
+GWQ54_RS16160	3651588	3651855	+	hypothetical protein	
+GWQ54_RS16165	3652021	3653539	+	LCP family protein	
+GWQ54_RS16170	3653679	3654351	+	alpha/beta fold hydrolase	
+GWQ54_RS16175	3654637	3654823	-	hypothetical protein	
+GWQ54_RS16180	3654980	3655553	+	hypothetical protein	
+GWQ54_RS16185	3655670	3656243	-	YbhB/YbcL family Raf kinase inhibitor-like protein	
+GWQ54_RS16190	3656239	3656830	-	isochorismatase family cysteine hydrolase	
+GWQ54_RS37820	3656858	3657254	-	hypothetical protein	
+GWQ54_RS16195	3657390	3657831	-	MarR family winged helix-turn-helix transcriptional regulator	
+GWQ54_RS16200	3658070	3658904	+	PIG-L family deacetylase	
+GWQ54_RS38360	3659200	3659332	+	hypothetical protein	
+GWQ54_RS37825	3659451	3659622	-	hypothetical protein	
+GWQ54_RS38500	3659926	3660199	-	DUF664 domain-containing protein	
+GWQ54_RS37835	3660138	3660549	+	hypothetical protein	
+GWQ54_RS16215	3660628	3661141	+	DinB family protein	
+GWQ54_RS16220	3661303	3661972	-	hypothetical protein	
+GWQ54_RS16225	3662275	3662941	+	hypothetical protein	
+GWQ54_RS16230	3663028	3663940	-	alpha/beta hydrolase family protein	
+GWQ54_RS16235	3664041	3664611	+	TetR/AcrR family transcriptional regulator	
+GWQ54_RS16240	3664698	3665451	-	ArsR/SmtB family transcription factor	
+GWQ54_RS16245	3665639	3666263	+	DUF6629 family protein	
+GWQ54_RS16250	3666888	3667902	+	hypothetical protein	
+GWQ54_RS16255	3667970	3668894	+	fumarylacetoacetate hydrolase family protein	
+GWQ54_RS16260	3668877	3670641	+	non-ribosomal peptide synthetase	
+GWQ54_RS16265	3670643	3672419	+	asparagine synthase (glutamine-hydrolyzing)	
+GWQ54_RS16270	3672415	3673861	+	AMP-binding protein	
+GWQ54_RS16275	3673857	3674091	+	acyl carrier protein	
+GWQ54_RS16280	3674077	3675310	+	cytochrome P450	
+GWQ54_RS16285	3675306	3676038	+	thioesterase II family protein	
+GWQ54_RS16290	3676034	3677324	+	APC family permease	
+GWQ54_RS16295	3677349	3678036	+	thioesterase II family protein	
+GWQ54_RS16300	3678141	3679647	-	arabinofuranosidase catalytic domain-containing protein	
+GWQ54_RS16305	3679824	3680346	-	DinB family protein	
+GWQ54_RS16310	3680639	3681764	+	hypothetical protein	
+GWQ54_RS16315	3682080	3683940	+	aldo/keto reductase	
+GWQ54_RS16320	3683936	3684644	+	DUF2461 family protein	
+GWQ54_RS16325	3685424	3686726	+	ATP-grasp domain-containing protein	
+GWQ54_RS16330	3687025	3693178	+	non-ribosomal peptide synthetase	
+GWQ54_RS16335	3693198	3693618	+	RidA family protein	
+GWQ54_RS16340	3693614	3694490	+	alpha/beta hydrolase	
+GWQ54_RS16345	3694486	3695740	+	MFS transporter	
+GWQ54_RS16350	3695752	3697633	+	non-ribosomal peptide synthetase	
+GWQ54_RS16355	3697744	3698446	+	guanitoxin biosynthesis heme-dependent pre-guanitoxin N-hydroxylase GntA	
+GWQ54_RS16360	3698652	3699033	+	FKBP-type peptidyl-prolyl cis-trans isomerase	
+GWQ54_RS16365	3699434	3699680	+	serine hydrolase	
+GWQ54_RS16370	3700236	3700956	+	hypothetical protein	
+GWQ54_RS16375	3700948	3702247	+	SRPBCC family protein	
+GWQ54_RS16380	3702663	3703056	+	gas vesicle protein	
+GWQ54_RS16385	3703248	3703692	+	gas vesicle structural protein GvpA	
+GWQ54_RS16390	3703695	3704409	+	GvpL/GvpF family gas vesicle protein	
+GWQ54_RS16395	3704455	3704704	+	gas vesicle protein GvpG	
+GWQ54_RS16400	3704743	3705160	+	gas vesicle protein	
+GWQ54_RS16405	3705152	3706064	+	GvpL/GvpF family gas vesicle protein	
+GWQ54_RS16410	3706053	3706269	+	gas vesicle protein	
+GWQ54_RS16415	3706315	3706720	+	gas vesicle protein K	
+GWQ54_RS16420	3706870	3707215	+	hypothetical protein	
+GWQ54_RS16425	3707255	3707642	-	hypothetical protein	
+GWQ54_RS16430	3707775	3709071	-	MFS transporter	
+GWQ54_RS16435	3709067	3709610	-	ArsR/SmtB family transcription factor	
+GWQ54_RS16440	3709956	3710676	-	N-acyl homoserine lactonase family protein	
+GWQ54_RS16445	3710761	3711160	-	VOC family protein	
+GWQ54_RS16450	3711447	3711741	+	hypothetical protein	
+GWQ54_RS16455	3711871	3712654	-	SDR family NAD(P)-dependent oxidoreductase	
+GWQ54_RS16460	3712741	3713632	+	helix-turn-helix transcriptional regulator	
+GWQ54_RS16465	3713755	3714592	-	carbohydrate-binding protein	
+GWQ54_RS16470	3714736	3715654	-	AraC family transcriptional regulator	
+GWQ54_RS16475	3716080	3716854	-	TIGR03084 family metal-binding protein	
+GWQ54_RS16480	3716974	3717871	-	hypothetical protein	
+GWQ54_RS16485	3717966	3719172	+	CapA family protein	
+GWQ54_RS16490	3719357	3721592	+	HAMP domain-containing protein	
+GWQ54_RS16495	3721599	3723069	+	poly-gamma-glutamate synthase PgsB	
+GWQ54_RS16500	3723133	3723616	+	poly-gamma-glutamate biosynthesis protein PgsC/CapC	
+GWQ54_RS16505	3723650	3724727	+	C40 family peptidase	
+GWQ54_RS16510	3724780	3725911	-	NADH:flavin oxidoreductase	
+GWQ54_RS16515	3726144	3726624	+	MarR family winged helix-turn-helix transcriptional regulator	
+GWQ54_RS16520	3726620	3729263	-	class IV lanthionine synthetase LanL	
+GWQ54_RS16525	3729390	3729546	-	SflA family class IV lanthipeptide	
+GWQ54_RS16530	3729904	3730573	+	DUF4097 family beta strand repeat-containing protein	
+GWQ54_RS16535	3730758	3730977	-	LysR family transcriptional regulator	
+GWQ54_RS16540	3731230	3731827	+	chloramphenicol phosphotransferase CPT family protein	
+GWQ54_RS16545	3731836	3734872	-	AfsR/SARP family transcriptional regulator	
+GWQ54_RS16550	3735113	3735515	+	hypothetical protein	
+GWQ54_RS16555	3735628	3736507	+	hypothetical protein	
+GWQ54_RS16560	3736643	3737660	-	DUF6215 domain-containing protein	
+GWQ54_RS16565	3738149	3739109	+	threonine/serine dehydratase	
+
+
+Significant hits: 
+1. BGC0002337	class IV lanthipeptide/SflA
+2. BGC0000175	cycloheximide
+3. BGC0001138	a201a
+
+
+Details:
+
+>>
+1. BGC0002337
+Source: class IV lanthipeptide/SflA
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 743.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS16520	IG05_RS0137475	50	686	96.47727272727272	1.86e-236
+GWQ54_RS16525	IG05_RS0137480	61	57	84.31372549019608	3.91e-13
+
+
+
+>>
+2. BGC0000175
+Source: cycloheximide
+Type: Polyketide:Trans-AT type I polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1291.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AFO59859.1	AFO59859.1	70	819	+	hypothetical_protein
+AFO59860.1	AFO59860.1	971	1747	+	hypothetical_protein
+AFO59861.1	AFO59861.1	2031	2456	+	hypothetical_protein
+AFO59862.1	AFO59862.1	2506	5877	-	ChxA
+AFO59863.1	AFO59863.1	6294	7169	+	ChxB
+AFO59864.1	AFO59864.1	7173	7430	+	ChxC
+AFO59865.1	AFO59865.1	7447	9483	+	amidotransferase
+AFO59866.1	AFO59866.1	9480	30236	+	ChxE
+AFO59867.1	AFO59867.1	30233	31192	+	ChxF
+AFO59868.1	AFO59868.1	31680	32774	-	the_OYE_family_of_flavoprotein_oxidoreductase
+AFO59869.1	AFO59869.1	33103	33891	+	ChxH
+AFO59870.1	AFO59870.1	33978	35171	+	ChxI
+AFO59871.1	AFO59871.1	35274	38720	+	three-domain_carboxylic_acid_reductase
+AFO59872.1	AFO59872.1	38774	39163	+	hypothetical_protein
+AFO59873.1	AFO59873.1	39752	42409	+	hypothetical_protein
+AFO59874.1	AFO59874.1	43054	43290	-	hypothetical_protein
+AFO59875.1	AFO59875.1	43925	44137	+	hypothetical_protein
+AFO59876.1	AFO59876.1	44766	45029	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS16510	AFO59868.1	59	412	97.87234042553192	1.27e-143
+GWQ54_RS16520	AFO59873.1	57	879	98.63636363636363	1.92e-311
+
+
+
+>>
+3. BGC0001138
+Source: a201a
+Type: Other:Nucleoside
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 206.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AET51836.1	AET51836.1	1	639	-	putative_uncharacterized_protein
+AET51837.1	AET51837.1	636	2066	-	putative_iron-sulfur_protein
+AET51838.1	AET51838.1	2063	2800	-	putative_uncharacterized_protein
+AET51839.1	AET51839.1	3630	4364	+	GntR_family_transcriptional_regulator
+AET51840.1	AET51840.1	4441	6468	-	peptidase_S15
+AET51841.1	AET51841.1	6488	7774	-	putative_uncharacterized_protein
+AET51842.1	AET51842.1	8051	8386	+	putative_uncharacterized_protein
+AET51843.1	AET51843.1	9226	9672	+	NTP-pyrophosphohydrolase
+AET51844.1	AET51844.1	9673	10827	+	oxireductase
+AET51845.1	AET51845.1	10828	12117	+	aminotransferase
+AET51846.1	AET51846.1	12136	12840	+	N-methyltransferase
+AET51847.1	AET51847.1	12910	13974	-	GDP-D-manose-4,6-dehydratase
+AET51848.1	AET51848.1	14167	15381	+	acyltransferase
+AET51849.1	AET51849.1	15383	16510	-	glycosyltransferase
+AET51850.1	AET51850.1	16504	17439	-	oxidoreductase
+AET51851.1	AET51851.1	17455	19167	-	ABC_transporter
+AET51852.1	AET51852.1	19164	20522	-	glucokinase
+AET51853.1	AET51853.1	20519	21649	-	transglycosylse
+AET51872.1	AET51872.1	21636	22664	-	NAD-dependent_epimerase/dehydratase
+AET51854.1	AET51854.1	23379	23726	+	acyl_carrier_protein
+AET51855.1	AET51855.1	23723	24871	+	ketoacyl_synthase_1
+AET51856.1	AET51856.1	24873	25679	+	putative_uncharacterized_protein
+AET51857.1	AET51857.1	25672	27126	+	CoA-ligase
+AET51858.1	AET51858.1	27123	27407	+	ACP
+AET51859.1	AET51859.1	27404	28423	+	3-ketoacyl_ACP_dehydratase
+AET51860.1	AET51860.1	28420	29004	+	phosphotransferase
+AET51861.1	AET51861.1	29004	29753	+	3-ketoacyl_ACP_reductase
+AET51862.1	AET51862.1	29768	31048	+	glycosyltransferase
+AET51863.1	AET51863.1	31045	32109	+	methyltransferase
+AET51864.1	AET51864.1	32106	32666	+	putative_chorismate_pyruvate-lyase
+AET51865.1	AET51865.1	32814	33542	+	methyltransferase
+AET51866.1	AET51866.1	33539	34828	-	transmembrane_protein
+AET51867.1	AET51867.1	34906	36495	+	oxidoreductase
+AET51868.1	AET51868.1	36503	37225	+	methyltransferase
+AET51869.1	AET51869.1	37244	38026	+	inositol-phosphate_phosphatase
+AET51870.1	AET51870.1	38357	38662	+	putative_gas_vesicle_synthesis_protein
+AET51871.1	AET51871.1	38759	39199	+	putative_gas_vesicle_synthesis_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS16380	AET51870.1	51	66	45.38461538461539	5.95e-15
+GWQ54_RS16385	AET51871.1	64	140	79.59183673469387	2.57e-43
+

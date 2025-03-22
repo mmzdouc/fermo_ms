@@ -1,0 +1,86 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS23060	5228060	5228468	+	hypothetical protein	
+GWQ54_RS23065	5228561	5228735	+	hypothetical protein	
+GWQ54_RS23070	5228900	5229821	-	maleylpyruvate isomerase family mycothiol-dependent enzyme	
+GWQ54_RS23075	5230076	5231351	+	PP2C family protein-serine/threonine phosphatase	
+GWQ54_RS23080	5231424	5232297	+	class I SAM-dependent methyltransferase	
+GWQ54_RS23085	5232357	5232696	-	thioredoxin family protein	
+GWQ54_RS23090	5232980	5234048	+	hypothetical protein	
+GWQ54_RS23095	5234086	5234881	-	phosphodiesterase	
+GWQ54_RS23100	5235060	5235537	-	hypothetical protein	
+GWQ54_RS23105	5235813	5236143	-	LuxR family transcriptional regulator	
+GWQ54_RS23110	5236319	5236859	+	uridine kinase family protein	
+GWQ54_RS23115	5236936	5237926	-	class A beta-lactamase	
+GWQ54_RS23120	5238234	5238936	+	DUF4956 domain-containing protein	
+GWQ54_RS23125	5238932	5239817	+	polyphosphate polymerase domain-containing protein	
+GWQ54_RS23130	5239928	5240930	+	trypsin-like serine peptidase	
+GWQ54_RS23135	5241073	5241649	+	TerD family protein	
+GWQ54_RS23140	5241725	5242130	-	peptidase inhibitor family I36 protein	
+GWQ54_RS23145	5242732	5244139	+	lipase maturation factor family protein	
+GWQ54_RS23150	5244211	5244880	-	hypothetical protein	
+GWQ54_RS23155	5245006	5247877	-	condensation domain-containing protein	
+GWQ54_RS23160	5247863	5249660	-	non-ribosomal peptide synthetase	
+GWQ54_RS23165	5249706	5251596	-	non-ribosomal peptide synthetase	
+GWQ54_RS23170	5251595	5254784	-	non-ribosomal peptide synthetase	
+GWQ54_RS23175	5254940	5256248	-	condensation domain-containing protein	
+GWQ54_RS23180	5256343	5257615	-	MFS transporter	
+GWQ54_RS23185	5257951	5258401	-	DUF6299 family protein	
+GWQ54_RS23190	5258732	5259866	+	glutamate--cysteine ligase	
+GWQ54_RS23195	5260116	5260755	+	hypothetical protein	
+GWQ54_RS23200	5260900	5261602	-	ribonuclease H family protein	
+GWQ54_RS23205	5261767	5262208	-	lamin tail domain-containing protein	
+GWQ54_RS23215	5262778	5262964	+	hypothetical protein	
+GWQ54_RS23220	5263088	5264138	-	PHP domain-containing protein	
+GWQ54_RS23225	5264317	5264704	-	hypothetical protein	
+GWQ54_RS23230	5264883	5265771	-	C40 family peptidase	
+GWQ54_RS23235	5265963	5269728	-	helix-turn-helix domain-containing protein	
+GWQ54_RS23240	5270127	5271912	+	M4 family metallopeptidase	
+GWQ54_RS23245	5271969	5272788	-	hypothetical protein	
+GWQ54_RS23250	5273044	5274784	+	PQQ-binding-like beta-propeller repeat protein	
+
+
+Significant hits: 
+1. BGC0002051	antipain
+2. BGC0001570	deimino-antipain
+
+
+Details:
+
+>>
+1. BGC0002051
+Source: antipain
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5563.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS23155	NAI38-465	71	1238	99.89539748953975	0.0
+GWQ54_RS23160	NAI38-464	76	892	100.50167224080269	0.0
+GWQ54_RS23165	NAI38-463	70	797	98.41017488076311	5.73e-287
+GWQ54_RS23170	NAI38-462	77	1556	99.62335216572504	0.0
+GWQ54_RS23175	NAI38-461	62	497	99.08045977011494	4.81e-175
+GWQ54_RS23180	NAI38-460	77	583	99.29078014184397	4.65e-209
+
+
+
+>>
+2. BGC0001570
+Source: deimino-antipain
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5423.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS23155	A4V12_31660	67	1176	102.61506276150627	0.0
+GWQ54_RS23160	A4V12_31655	78	900	98.82943143812709	0.0
+GWQ54_RS23165	A4V12_31650	70	800	99.04610492845786	4.61e-288
+GWQ54_RS23170	A4V12_31645	72	1501	104.8964218455744	0.0
+GWQ54_RS23175	A4V12_31635	60	483	105.51724137931035	4.04e-169
+GWQ54_RS23180	A4V12_31630	79	563	96.6903073286052	4.17e-201
+

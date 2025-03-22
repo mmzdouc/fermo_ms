@@ -1,0 +1,17 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS15015	3406308	3406857	+	DUF4142 domain-containing protein	
+GWQ54_RS15020	3407639	3408953	+	MFS transporter	
+GWQ54_RS15025	3408949	3410827	+	S9 family peptidase	
+GWQ54_RS15030	3411036	3412974	+	RiPP maturation radical SAM C-methyltransferase	
+GWQ54_RS15035	3413011	3413689	+	DUF5825 family protein	
+GWQ54_RS15040	3413772	3414882	-	YihY/virulence factor BrkB family protein	
+GWQ54_RS15045	3415082	3417146	+	ATP-binding protein	
+GWQ54_RS15050	3417171	3417579	-	RidA family protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAC17502.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000324/1">BGC0000324</a></td>
+              <td>NRP</td>
+              <td>47.0</td>
+              <td>95.5</td>
+              <td>291.0</td>
+              <td>1.59e-92</td>
+          </tr>
+    
+          <tr>
+              <td>WP_069848006.1</td>
+              <td>bifunctional_Gfo/Idh/MocA_family_oxidoreductase/class_I_SAM-dependent_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002472/1">BGC0002472</a></td>
+              <td>NRP</td>
+              <td>37.0</td>
+              <td>98.9</td>
+              <td>231.0</td>
+              <td>8.07e-69</td>
+          </tr>
+    
+          <tr>
+              <td>CAD15507.1</td>
+              <td>thiazolinyl_imide_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001014/1">BGC0001014</a></td>
+              <td>NRP:NRP siderophore+Polyketide:Modular type I polyketide+Polyketide:Iterative type I polyketide</td>
+              <td>38.0</td>
+              <td>88.6</td>
+              <td>194.0</td>
+              <td>2.79e-58</td>
+          </tr>
+    
+          <tr>
+              <td>AKU20506.1</td>
+              <td>siderophore_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002687/1">BGC0002687</a></td>
+              <td>Polyketide+NRP</td>
+              <td>42.0</td>
+              <td>67.7</td>
+              <td>193.0</td>
+              <td>6.48e-58</td>
+          </tr>
+    
+          <tr>
+              <td>AAK01463.1</td>
+              <td>reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000412/1">BGC0000412</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>96.6</td>
+              <td>166.0</td>
+              <td>8.43e-48</td>
+          </tr>
+    
+          <tr>
+              <td>ALK21571.1</td>
+              <td>oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002678/1">BGC0002678</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>82.3</td>
+              <td>162.0</td>
+              <td>3.51e-46</td>
+          </tr>
+    
+          <tr>
+              <td>AAO56103.1</td>
+              <td>yersiniabactin_synthetase,_thiazolinyl_reductase_component</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002570/1">BGC0002570</a></td>
+              <td>NRP+Polyketide</td>
+              <td>32.0</td>
+              <td>99.2</td>
+              <td>152.0</td>
+              <td>1.38e-42</td>
+          </tr>
+    
+          <tr>
+              <td>MBN3579114.1</td>
+              <td>Gfo/Idh/MocA_family_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002613/1">BGC0002613</a></td>
+              <td>NRP+Polyketide</td>
+              <td>31.0</td>
+              <td>68.3</td>
+              <td>144.0</td>
+              <td>1.54e-39</td>
+          </tr>
+    
+          <tr>
+              <td>CAA73128.1</td>
+              <td>Irp3_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000467/1">BGC0000467</a></td>
+              <td>NRP</td>
+              <td>34.0</td>
+              <td>69.3</td>
+              <td>140.0</td>
+              <td>6.42e-38</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ87592.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001055/1">BGC0001055</a></td>
+              <td>NRP+Polyketide</td>
+              <td>32.0</td>
+              <td>69.0</td>
+              <td>139.0</td>
+              <td>1.27e-37</td>
+          </tr>
+    
+          <tr>
+              <td>AKQ52533.1</td>
+              <td>Putative_reductase_component</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002533/1">BGC0002533</a></td>
+              <td>NRP+Polyketide</td>
+              <td>30.0</td>
+              <td>68.3</td>
+              <td>127.0</td>
+              <td>4.26e-33</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ADG27361.1</td>
+              <td>aryl_formamidase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000296/1">BGC0000296</a></td>
+              <td>NRP</td>
+              <td>81.0</td>
+              <td>98.3</td>
+              <td>451.0</td>
+              <td>2.01e-161</td>
+          </tr>
+    
+          <tr>
+              <td>AVR52616.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002443/1">BGC0002443</a></td>
+              <td>Polyketide</td>
+              <td>47.0</td>
+              <td>99.3</td>
+              <td>229.0</td>
+              <td>7.13e-74</td>
+          </tr>
+    
+          <tr>
+              <td>AHH53514.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000439/1">BGC0000439</a></td>
+              <td>NRP:Lipopeptide:Ca+-dependent lipopeptide</td>
+              <td>46.0</td>
+              <td>98.0</td>
+              <td>211.0</td>
+              <td>3.55e-67</td>
+          </tr>
+    
+          <tr>
+              <td>ACN39734.1</td>
+              <td>SibK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000428/1">BGC0000428</a></td>
+              <td>NRP</td>
+              <td>48.0</td>
+              <td>95.2</td>
+              <td>206.0</td>
+              <td>2.04e-65</td>
+          </tr>
+    
+          <tr>
+              <td>ABW71851.1</td>
+              <td>putative_aryl_formamidase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000303/1">BGC0000303</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>95.2</td>
+              <td>184.0</td>
+              <td>2.01e-56</td>
+          </tr>
+    
+          <tr>
+              <td>AEA29642.1</td>
+              <td>putative_aryl_formamidase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000409/1">BGC0000409</a></td>
+              <td>NRP</td>
+              <td>42.0</td>
+              <td>96.9</td>
+              <td>176.0</td>
+              <td>3.12e-53</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

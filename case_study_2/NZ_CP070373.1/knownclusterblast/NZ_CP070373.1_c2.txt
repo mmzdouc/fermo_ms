@@ -1,0 +1,72 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS07735	1701926	1703156	+	L,D-transpeptidase	
+GWQ54_RS07740	1703451	1704687	+	L,D-transpeptidase	
+GWQ54_RS07745	1704768	1705536	+	enoyl-CoA hydratase/isomerase family protein	
+GWQ54_RS07750	1705822	1706326	+	ATP-binding protein	
+GWQ54_RS07755	1706730	1707546	+	polysaccharide deacetylase family protein	
+GWQ54_RS07760	1707545	1708727	+	YncE family protein	
+GWQ54_RS07765	1708791	1709982	-	cytochrome P450	
+GWQ54_RS07770	1709978	1710674	-	tRNA-dependent cyclodipeptide synthase	
+GWQ54_RS07775	1711035	1711248	+	EF-hand domain-containing protein	
+GWQ54_RS07780	1711309	1712032	+	NADPH-dependent F420 reductase	
+GWQ54_RS07785	1712051	1713422	-	L-serine ammonia-lyase	
+GWQ54_RS07790	1713579	1714839	-	serine hydroxymethyltransferase	
+GWQ54_RS07795	1714877	1715252	-	glycine cleavage system protein GcvH	
+GWQ54_RS07800	1715352	1716477	-	glycine cleavage system aminomethyltransferase GcvT	
+GWQ54_RS07805	1716857	1717526	+	AAA family ATPase	
+GWQ54_RS07810	1717632	1718406	+	enhanced serine sensitivity protein SseB	
+GWQ54_RS07815	1718573	1719371	+	enhanced serine sensitivity protein SseB C-terminal domain-containing protein	
+
+
+Significant hits: 
+1. BGC0001379	BD-12
+
+
+Details:
+
+>>
+1. BGC0001379
+Source: BD-12
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 2531.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAU50924.1	BAU50924.1	1	571	-	acyl-CoA_dehydrogenase
+BAU50925.1	BAU50925.1	1186	2661	+	N-formimidoyl_fortimicin_A_synthase
+BAU50926.1	BAU50926.1	2794	3588	+	hydrolase
+BAU50927.1	BAU50927.1	3662	5488	-	ABC_transporter
+BAU50928.1	BAU50928.1	5485	7035	-	ABC_transporter
+BAU50929.1	BAU50929.1	7546	9240	+	peptidase
+BAU50930.1	BAU50930.1	9242	10615	+	methyltransferase
+BAU50931.1	BAU50931.1	10686	11405	-	hypothetical_protein
+BAU50932.1	BAU50932.1	11395	12195	-	regulatory_protein
+BAU50933.1	BAU50933.1	12571	13419	+	regulatory_protein
+BAU50934.1	BAU50934.1	13512	15215	-	carbamoyl_transferase
+BAU50935.1	BAU50935.1	15489	16355	+	FemAX_protein
+BAU50936.1	BAU50936.1	16330	17400	-	glycosyl_transferase
+BAU50937.1	BAU50937.1	17447	18166	-	methyltransferase
+BAU50938.1	BAU50938.1	18234	19475	-	carbamoyl-phosphate_synthetase
+BAU50939.1	BAU50939.1	19495	20166	-	deacetylase
+BAU50940.1	BAU50940.1	20163	21161	-	oxidoreductase
+BAU50941.1	BAU50941.1	21167	22219	-	oxidoreductase
+BAU50942.1	BAU50942.1	22322	23077	-	acyltransferase
+BAU50943.1	BAU50943.1	23085	24113	-	L-arginine_hydroxylase
+BAU50944.1	BAU50944.1	24172	26019	-	nonribosomal_peptide_synthetase
+BAU50945.1	BAU50945.1	26016	27149	-	aminotransferase
+BAU50946.1	BAU50946.1	27302	28264	+	macrolide_phosphotransferase
+BAU50947.1	BAU50947.1	28288	29658	-	serine_dehydratase
+BAU50948.1	BAU50948.1	29840	31102	-	serine_hydroxymethyltransferase
+BAU50949.1	BAU50949.1	31126	31503	-	glycine_cleavage_system_protein_H
+BAU50950.1	BAU50950.1	31626	32750	-	glycine_cleavage_system_protein_T
+BAU50951.1	BAU50951.1	33178	33575	+	ATP-binding_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS07785	BAU50947.1	91	828	100.0	3.95e-305
+GWQ54_RS07790	BAU50948.1	88	729	100.23866348448686	4.72e-267
+GWQ54_RS07795	BAU50949.1	89	230	100.0	1.27e-79
+GWQ54_RS07800	BAU50950.1	84	622	100.80213903743316	2.22e-226
+GWQ54_RS07805	BAU50951.1	64	122	43.69369369369369	3.79e-35
+

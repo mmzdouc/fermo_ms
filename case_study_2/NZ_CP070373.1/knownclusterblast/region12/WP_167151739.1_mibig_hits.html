@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAP03116.1</td>
+              <td>putative_carboxyesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000874/1">BGC0000874</a></td>
+              <td>Other</td>
+              <td>41.0</td>
+              <td>100.0</td>
+              <td>270.0</td>
+              <td>1.35e-84</td>
+          </tr>
+    
+          <tr>
+              <td>AQW35052.1</td>
+              <td>carboxylesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001675/1">BGC0001675</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>56.4</td>
+              <td>152.0</td>
+              <td>4.17e-40</td>
+          </tr>
+    
+          <tr>
+              <td>ACQ63629.1</td>
+              <td>acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000875/1">BGC0000875</a></td>
+              <td>Saccharide:Hybrid/tailoring saccharide+Other:Nucleoside</td>
+              <td>37.0</td>
+              <td>70.1</td>
+              <td>127.0</td>
+              <td>1.63e-31</td>
+          </tr>
+    
+          <tr>
+              <td>ADC96667.1</td>
+              <td>acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001076/1">BGC0001076</a></td>
+              <td>Other:Nucleoside</td>
+              <td>35.0</td>
+              <td>72.7</td>
+              <td>125.0</td>
+              <td>5.33e-31</td>
+          </tr>
+    
+          <tr>
+              <td>BAJ05894.1</td>
+              <td>putative_acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000872/1">BGC0000872</a></td>
+              <td>Other</td>
+              <td>34.0</td>
+              <td>75.2</td>
+              <td>120.0</td>
+              <td>2.81e-29</td>
+          </tr>
+    
+          <tr>
+              <td>AWH12912.1</td>
+              <td>StmI</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001784/1">BGC0001784</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>104.6</td>
+              <td>119.0</td>
+              <td>1.1e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ABV91296.1</td>
+              <td>putative_type_B_carboxylesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000158/1">BGC0000158</a></td>
+              <td>Polyketide:Modular type I polyketide</td>
+              <td>35.0</td>
+              <td>68.3</td>
+              <td>118.0</td>
+              <td>1.84e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ABI94378.1</td>
+              <td>TMC_biosynthetic_enzyme_L1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000157/1">BGC0000157</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>68.3</td>
+              <td>118.0</td>
+              <td>2.51e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ABW96543.1</td>
+              <td>type_B_carboxylesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000159/1">BGC0000159</a></td>
+              <td>Polyketide:Modular type I polyketide</td>
+              <td>35.0</td>
+              <td>70.8</td>
+              <td>117.0</td>
+              <td>3.08e-28</td>
+          </tr>
+    
+          <tr>
+              <td>AJO72733.1</td>
+              <td>Type_B_carboxylesterase/acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001381/1">BGC0001381</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>69.9</td>
+              <td>116.0</td>
+              <td>5.28e-28</td>
+          </tr>
+    
+          <tr>
+              <td>AEW98116.1</td>
+              <td>putative_type_B_carboxylesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002642/1">BGC0002642</a></td>
+              <td>Alkaloid</td>
+              <td>39.0</td>
+              <td>39.5</td>
+              <td>101.0</td>
+              <td>7.05e-23</td>
+          </tr>
+    
+          <tr>
+              <td>EWG54267.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001190/1">BGC0001190</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>42.2</td>
+              <td>97.0</td>
+              <td>4.27e-21</td>
+          </tr>
+    
+          <tr>
+              <td>XP_028481814.1</td>
+              <td>Alpha/Beta_hydrolase-like_dirigent_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001866/1">BGC0001866</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>43.4</td>
+              <td>84.0</td>
+              <td>7.69e-17</td>
+          </tr>
+    
+          <tr>
+              <td>AHL44340.1</td>
+              <td>hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000820/1">BGC0000820</a></td>
+              <td>Alkaloid</td>
+              <td>36.0</td>
+              <td>21.5</td>
+              <td>56.0</td>
+              <td>2.52e-08</td>
+          </tr>
+    
+          <tr>
+              <td>BCN13449.1</td>
+              <td>alpha/beta_hydrolase_AzpM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002457/1">BGC0002457</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>25.1</td>
+              <td>54.0</td>
+              <td>1.53e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

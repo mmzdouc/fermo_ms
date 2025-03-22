@@ -1,0 +1,140 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS28065	6340225	6341311	-	amidohydrolase family protein	
+GWQ54_RS28070	6341427	6342525	+	pyridoxal-phosphate-dependent aminotransferase family protein	
+GWQ54_RS28075	6342849	6343371	+	diaminobutyrate acetyltransferase	
+GWQ54_RS28080	6343367	6344639	+	diaminobutyrate--2-oxoglutarate transaminase	
+GWQ54_RS28085	6344708	6345113	+	ectoine synthase	
+GWQ54_RS28090	6345115	6345976	+	ectoine hydroxylase	
+GWQ54_RS28095	6346091	6346760	+	hypothetical protein	
+GWQ54_RS28100	6346734	6347436	-	hypothetical protein	
+GWQ54_RS28105	6347485	6348577	-	alkene reductase	
+GWQ54_RS28110	6348700	6349237	+	MarR family winged helix-turn-helix transcriptional regulator	
+
+
+Significant hits: 
+1. BGC0000853	ectoine
+2. BGC0002052	ectoine
+3. BGC0000858	ectoine
+4. BGC0000852	ectoine
+5. BGC0000860	ectoine
+6. BGC0000854	ectoine
+
+
+Details:
+
+>>
+1. BGC0000853
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1775.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAS02094.1	AAS02094.1	9	539	+	ThpA
+AAS02095.1	AAS02095.1	698	1960	+	ThpB
+AAS02096.1	AAS02096.1	2047	2445	+	ThpC
+AAS02097.1	AAS02097.1	2452	3345	+	ThpD
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28075	AAS02094.1	74	242	90.7514450867052	9.39e-83
+GWQ54_RS28080	AAS02095.1	90	768	99.76359338061465	1.6e-282
+GWQ54_RS28085	AAS02096.1	96	269	97.01492537313433	1.35e-94
+GWQ54_RS28090	AAS02097.1	82	496	101.3986013986014	2.55e-179
+
+
+
+>>
+2. BGC0002052
+Source: ectoine
+Type: Other:Ectoine
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1689.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28075	NAI38-5751	68	233	94.79768786127167	9.23e-79
+GWQ54_RS28080	NAI38-5750	84	723	99.05437352245863	1.15e-264
+GWQ54_RS28085	NAI38-5749	89	249	98.50746268656717	1.41e-86
+GWQ54_RS28090	NAI38-5748	80	484	101.3986013986014	2.06e-174
+
+
+
+>>
+3. BGC0000858
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 604.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACB30326.1	ACB30326.1	214	693	+	L-2,4-diaminobutyric_acid_acetyltransferase
+ACB30327.1	ACB30327.1	690	1967	+	L-2,4-diaminobutyric_acid_aminotransferase
+ACB30328.1	ACB30328.1	1964	2371	+	ectoine_synthase
+ACB30329.1	ACB30329.1	2454	3827	+	transporter_solute:sodium_symporter_(SSS)_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28080	ACB30327.1	54	451	98.3451536643026	1.99e-157
+GWQ54_RS28085	ACB30328.1	54	153	93.28358208955224	7.66e-49
+
+
+
+>>
+4. BGC0000852
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 585.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAK12083.1	AAK12083.1	416	958	+	EctA
+AAK12084.1	AAK12084.1	1010	2290	+	EctB
+AAK12085.1	AAK12085.1	2450	2854	+	EctC
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28080	AAK12084.1	56	460	99.05437352245863	6.69e-161
+GWQ54_RS28085	AAK12085.1	47	125	97.01492537313433	1.3e-37
+
+
+
+>>
+5. BGC0000860
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 533.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADA71973.1	ADA71973.1	711	1265	-	MarR_family_transcriptional_regulator
+ADA71974.1	ADA71974.1	1441	1986	+	L-2,4-diaminobutyric_acid_acetyltransferase
+ADA71975.1	ADA71975.1	2042	3334	+	L-2,4-diaminobutyrate_transaminase
+ADA71976.1	ADA71976.1	3342	3737	+	L-ectoine_synthase
+ADA71977.1	ADA71977.1	3740	5134	+	aspartokinase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28080	ADA71975.1	51	407	95.98108747044918	6.17e-140
+GWQ54_RS28085	ADA71976.1	48	126	97.01492537313433	2.93e-38
+
+
+
+>>
+6. BGC0000854
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 744.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACP19701.1	ACP19701.1	839	1381	-	transcriptional_regulator_MarR_family
+AAY96770.1	AAY96770.1	1709	2227	+	L-2,4-diaminobutyrat_acetyltransferase
+AAY96771.1	AAY96771.1	2270	3601	+	L-2,4-diaminobutyrat_transaminase
+AAY96772.1	AAY96772.1	3652	4056	+	ectoine_synthase
+AAY96773.1	AAY96773.1	4117	5559	+	aspartokinase
+AAY96769.2	AAY96769.2	5920	6879	+	putative_ectoine_hydroxylase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS28080	AAY96771.1	57	472	97.39952718676122	3.39e-165
+GWQ54_RS28090	AAY96769.2	46	272	100.34965034965036	1.05e-90
+

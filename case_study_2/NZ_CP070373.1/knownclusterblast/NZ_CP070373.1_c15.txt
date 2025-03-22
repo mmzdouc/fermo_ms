@@ -1,0 +1,16 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS17215	3895491	3896004	+	hypothetical protein	
+GWQ54_RS17220	3896339	3897509	-	cytochrome P450	
+GWQ54_RS17225	3897501	3898077	-	DUF5825 family protein	
+GWQ54_RS17230	3898070	3899996	-	RiPP maturation radical SAM C-methyltransferase	
+GWQ54_RS17235	3900021	3901290	-	MFS transporter	
+GWQ54_RS17240	3901565	3902744	-	cytochrome P450	
+GWQ54_RS17245	3903731	3903893	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

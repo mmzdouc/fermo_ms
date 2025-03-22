@@ -1,0 +1,100 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS20610	4694241	4695198	+	thymidylate synthase	
+GWQ54_RS20615	4695212	4695956	+	class I SAM-dependent methyltransferase	
+GWQ54_RS38400	4695952	4696450	+	nucleoside 2-deoxyribosyltransferase	
+GWQ54_RS20625	4696585	4697170	-	hypothetical protein	
+GWQ54_RS20630	4697394	4697610	+	hypothetical protein	
+GWQ54_RS20635	4697692	4698715	-	MDR family NADP-dependent oxidoreductase	
+GWQ54_RS20640	4698824	4699745	+	LysR family transcriptional regulator	
+GWQ54_RS20645	4699775	4700432	-	FMN-dependent NADH-azoreductase	
+GWQ54_RS20650	4700531	4700906	+	winged helix-turn-helix transcriptional regulator	
+GWQ54_RS20655	4700957	4701848	-	ABC transporter permease	
+GWQ54_RS20660	4701844	4702957	-	ATP-binding cassette domain-containing protein	
+GWQ54_RS20665	4703060	4703216	-	VenA family class IV lanthipeptide	
+GWQ54_RS20670	4703284	4705957	-	class IV lanthionine synthetase LanL	
+GWQ54_RS20675	4707440	4708103	+	deoxynucleoside kinase	
+GWQ54_RS20680	4708258	4709371	-	aminotransferase class V-fold PLP-dependent enzyme	
+GWQ54_RS20685	4709587	4711315	-	thiamine pyrophosphate-dependent enzyme	
+GWQ54_RS20690	4711453	4713040	-	FMN-binding glutamate synthase family protein	
+GWQ54_RS20695	4713456	4714197	+	alpha/beta hydrolase	
+GWQ54_RS20700	4714448	4715705	-	MFS transporter	
+
+
+Significant hits: 
+1. BGC0000563	venezuelin
+2. BGC0001226	streptocollin
+3. BGC0000882	mildiomycin
+
+
+Details:
+
+>>
+1. BGC0000563
+Source: venezuelin
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2193.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AEA03262.1	AEA03262.1	186	3038	+	bifunctional_lantibiotic_synthetase
+AEA03263.1	AEA03263.1	3054	3209	+	lantibiotic_precursor
+AEA03264.1	AEA03264.1	3295	4422	+	ABC_transporter_ATP-binding_subunit
+AEA03265.1	AEA03265.1	4419	5330	+	ABC_transporter_membrane_permease_subunit
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS20655	AEA03265.1	75	375	90.87837837837837	2.02e-131
+GWQ54_RS20660	AEA03264.1	78	500	87.02702702702703	3.45e-178
+GWQ54_RS20665	AEA03263.1	77	90	100.0	4.78e-26
+GWQ54_RS20670	AEA03262.1	69	1228	105.50561797752809	0.0
+
+
+
+>>
+2. BGC0001226
+Source: streptocollin
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2180.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS20655	B446_00775	78	392	87.5	1.24e-138
+GWQ54_RS20660	B446_00780	73	468	90.27027027027027	4.39e-166
+GWQ54_RS20665	B446_00784	78	89	100.0	9.66e-26
+GWQ54_RS20670	B446_00785	66	1231	114.8314606741573	0.0
+
+
+
+>>
+3. BGC0000882
+Source: mildiomycin
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 495.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACA14348.1	ACA14348.1	1	1005	+	CMP_5-hydroxymethylase
+ACA14349.1	ACA14349.1	1128	1640	+	CMP/hydroxymethyl_CMP_hydrolase
+AFD20743.1	AFD20743.1	1782	3044	+	cytosylglucuronic_acid/hydroxymethyl_cytosylglucuronic_acid_synthase
+AFD20744.1	AFD20744.1	3061	4248	+	degT/dnrJ/eryC1/strS_aminotransferase
+AFD20745.1	AFD20745.1	4256	5077	+	aminoglycoside_phosphotransferase
+AFD20746.1	AFD20746.1	5070	5543	+	hypothetical_protein
+AFD20747.1	AFD20747.1	5503	6510	+	radical_SAM_superfamily
+AFD20748.1	AFD20748.1	6605	8827	+	MilH
+AFD20749.1	AFD20749.1	8824	9906	+	chitinase_A_precursor
+AFD20750.1	AFD20750.1	10078	11031	+	predicted_protein
+AFD20751.1	AFD20751.1	11028	12356	+	major_facilitator_superfamily
+AFD20752.1	AFD20752.1	12364	13350	+	hypothetical_protein
+AFD20753.1	AFD20753.1	13424	14593	+	Aspartate/tyrosine/aromatic_aminotransferase
+AFD20754.1	AFD20754.1	14586	15362	+	dihydrodipicolinate_synthetase_family_protein
+AFD20755.1	AFD20755.1	16095	17165	-	regulatory_protein_LuxR_family
+AFD20756.1	AFD20756.1	17171	18754	-	ABC_transporter_superfamily
+AFD20757.1	AFD20757.1	19044	19814	+	Aminoglycoside_phosphotransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS20610	ACA14348.1	53	323	100.0	8.14e-110
+GWQ54_RS38400	ACA14349.1	56	172	99.39393939393939	3.79e-55
+

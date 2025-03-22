@@ -1,0 +1,142 @@
+ClusterBlast scores for NZ_CP070373.1
+
+Table of genes, locations, strands and annotations of query cluster:
+GWQ54_RS18150	4128555	4129113	-	NUDIX domain-containing protein	
+GWQ54_RS18155	4129191	4131192	-	ATP-binding cassette domain-containing protein	
+GWQ54_RS18160	4132046	4133015	+	hypothetical protein	
+GWQ54_RS18165	4133886	4135086	+	ATP-binding protein	
+GWQ54_RS18170	4135082	4135481	+	roadblock/LC7 domain-containing protein	
+GWQ54_RS18175	4135477	4135867	+	DUF742 domain-containing protein	
+GWQ54_RS18180	4135841	4136447	+	GTP-binding protein	
+GWQ54_RS18185	4136443	4137790	+	cytochrome P450	
+GWQ54_RS18190	4138142	4139399	+	tryptophan dimethylallyltransferase family protein	
+GWQ54_RS18195	4139371	4140745	+	tryptophanase	
+GWQ54_RS18200	4141181	4142684	+	metallophosphoesterase	
+GWQ54_RS18205	4143176	4144202	-	C40 family peptidase	
+GWQ54_RS18210	4145208	4145910	-	hypothetical protein	
+GWQ54_RS18215	4146025	4146457	+	DUF4262 domain-containing protein	
+GWQ54_RS18220	4146567	4146954	+	DUF6228 family protein	
+GWQ54_RS18225	4147791	4148736	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001483	5-isoprenylindole-3-carboxylate β-D-glycosyl ester
+2. BGC0001840	detoxin S1
+3. BGC0000695	fortimicin
+
+
+Details:
+
+>>
+1. BGC0001483
+Source: 5-isoprenylindole-3-carboxylate β-D-glycosyl ester
+Type: Other
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2456.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ANA09434.1	ANA09434.1	1	2544	+	hypothetical_protein
+ANA09433.1	ANA09433.1	2627	3976	-	hypothetical_protein
+ANA09432.1	ANA09432.1	4139	5524	-	hypothetical_protein
+ANA09431.1	ANA09431.1	5902	6843	-	hypothetical_protein
+ANA09430.1	ANA09430.1	6858	7463	-	hypothetical_protein
+ANA09442.1	ANA09442.1	7533	8012	-	hypothetical_protein
+ANA09449.1	ANA09449.1	8159	9475	-	PriG
+ANA09448.1	ANA09448.1	9962	10696	-	PriF
+ANA09447.1	ANA09447.1	11108	12205	-	PriE
+ANA09446.1	ANA09446.1	12289	13665	-	PriD
+ANA09441.1	ANA09441.1	13760	13981	+	hypothetical_protein
+ANA09440.1	ANA09440.1	14313	15443	+	hypothetical_protein
+ANA09439.1	ANA09439.1	15461	15841	+	hypothetical_protein
+ANA09438.1	ANA09438.1	16157	16774	+	hypothetical_protein
+ANA09445.1	ANA09445.1	16784	18130	+	PriC
+ANA09444.1	ANA09444.1	18469	19626	+	PriB
+ANA09443.1	ANA09443.1	19675	21048	+	PriA
+ANA09429.1	ANA09429.1	21322	21741	-	hypothetical_protein
+ANA09435.1	ANA09435.1	21870	22886	-	hypothetical_protein
+ANA09436.1	ANA09436.1	22901	23518	-	hypothetical_protein
+ANA09437.1	ANA09437.1	23678	25255	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS18165	ANA09440.1	55	380	98.24561403508771	1.68e-130
+GWQ54_RS18170	ANA09439.1	59	150	92.42424242424242	1.25e-47
+GWQ54_RS18180	ANA09438.1	68	265	97.01492537313433	1.11e-90
+GWQ54_RS18185	ANA09445.1	60	528	99.33035714285714	7.19e-187
+GWQ54_RS18190	ANA09444.1	61	418	87.5598086124402	6.46e-145
+GWQ54_RS18195	ANA09443.1	78	715	99.12472647702407	2.55e-260
+
+
+
+>>
+2. BGC0001840
+Source: detoxin S1
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 973.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS18170	ctg16_12	58	147	95.45454545454545	1.98e-46
+GWQ54_RS18175	ctg16_13	55	126	97.67441860465115	2.97e-38
+GWQ54_RS18180	ctg16_14	66	253	97.01492537313433	3e-86
+GWQ54_RS18185	ctg16_15	51	447	102.00892857142858	9.66e-155
+
+
+
+>>
+3. BGC0000695
+Source: fortimicin
+Type: Saccharide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 753.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAF31530.1	CAF31530.1	1	1416	-	hypothetical_protein
+CAF31531.1	CAF31531.1	1547	2467	-	putative_transposase
+CAF31532.1	CAF31532.1	2968	4290	+	ForY
+CAF31533.1	CAF31533.1	4629	6635	+	putative_component_in_exporter_complex
+CAF31534.1	CAF31534.1	6632	8143	+	putative_component_in_exporter_complex
+CAF31535.1	CAF31535.1	8169	10031	+	putative_component_in_exporter_complex
+CAF31536.1	CAF31536.1	10124	11803	+	putative_fortimicin_dehydrogenase
+CAF31537.1	CAF31537.1	11817	12680	-	cytochrome_c-type
+CAF31538.1	CAF31538.1	12677	14227	-	putative_transmembrane_efflux_protein
+CAF31539.1	CAF31539.1	14239	15522	-	putative_(N-acetyl-)hexosaminyltransferase
+CAF31540.1	CAF31540.1	15533	16804	-	putative_ketocyclitol_aminotransferase_I_and_II
+CAF31541.1	CAF31541.1	16801	17862	-	putative_(cyclitol-)dehydrogenase
+CAF31542.1	CAF31542.1	17859	18593	-	putative_fortimicin_O-methyltransferase
+CAF31543.1	CAF31543.1	18619	19758	-	conserved_hypothetical_protein;_putative_fortimicin_production_protein
+CAF31544.1	CAF31544.1	19752	20660	-	putative_N-acetylhexosaminyl_deacetylase
+CAF31545.1	CAF31545.1	20660	21484	-	putative_fortimicin_3'-phosphotransferase_(biosynthetic)
+CAF31546.1	CAF31546.1	21486	22814	-	putative_fortimicin_6'-aminotransferase
+CAF31547.1	CAF31547.1	23004	24665	-	fortimicin_KL1_C-methyltransferase
+CAF31548.1	CAF31548.1	24691	26139	-	fortimicin_A_N-forimidoyltransferase
+CAF31549.1	CAF31549.1	26925	27392	+	putative_fortimicin_production_protein
+CAF31550.1	CAF31550.1	27450	28511	+	putative_myo-inositol_3-dehydrogenase
+CAF31551.1	CAF31551.1	28508	29350	+	putative_fortimicin_N-methyltransferase
+CAF31552.1	CAF31552.1	29359	30204	+	putative_myo-inositol-3-phosphate_phosphatase
+CAF31553.1	CAF31553.1	30466	31254	-	putative_fortimicin_biosynthetic_oxidoreductase
+CAF31554.1	CAF31554.1	31607	31906	+	hypothetical_protein
+CAF31555.1	CAF31555.1	31944	32825	+	16S_rRNA_methyltransferase
+CAF31556.1	CAF31556.1	32936	33877	+	putative_fortimicin_production_protein
+CAF31557.1	CAF31557.1	33910	34266	-	putative_fortimicin_production_protein
+CAF31558.1	CAF31558.1	34266	34904	-	putative_fortimicin_production_protein
+CAF31559.1	CAF31559.1	34911	35612	-	putative_fortimicin_production_protein;_unknown_ATP/GTP-binding_protein
+CAF31560.1	CAF31560.1	35772	36185	-	possible_fortimicin_production_protein
+CAF31561.1	CAF31561.1	36526	36897	-	possible_fortimicin_production_protein
+CAF31562.1	CAF31562.1	36896	37372	+	16S_rRNA_methyltransferase;_fortimicin_resistance
+CAF31563.1	CAF31563.1	37713	38522	-	16S_rRNA_methyltransferase
+CAF31564.1	CAF31564.1	38531	39688	-	possible_fortimicin_production_protein
+CAF31565.1	CAF31565.1	40025	41155	+	conserved_hypothetical_protein
+CAF31566.1	CAF31566.1	41180	42595	+	putative_tryptophanase
+CAF31567.1	CAF31567.1	42675	42806	-	putative_ATP/GTP-binding_protein
+CAG38669.1	CAG38669.1	42675	43229	-	putative_GTPase
+CAG38670.1	CAG38670.1	43274	43639	-	conserved_hypothetical_protein
+CAG38671.1	CAG38671.1	43636	44064	-	conserved_hypothetical_protein
+CAG38672.1	CAG38672.1	44075	45499	-	putative_signal_transduction_histidine_kinase
+CAG38673.1	CAG38673.1	46148	47035	-	putative_acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GWQ54_RS18180	CAG38669.1	51	178	87.06467661691542	8.26e-57
+GWQ54_RS18195	CAF31566.1	65	575	98.03063457330416	4.78e-205
+
