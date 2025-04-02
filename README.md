@@ -2,6 +2,10 @@
 
 Contains data generated in the scope of the FERMO manuscript.
 
-Data used in individual case studies can be found in the respective directories. If applicable, each directory has their own set of dependencies and installation instructions.
+## Content
+
+- `supp_data`: contains supplementary data referenced in the manuscript
+- `case_study_1`: contains data on benchmarking of FERMO against Bioactivity-based Molecular Networking
+- `case_study_2`: contains data on actinomycin study
 
 
