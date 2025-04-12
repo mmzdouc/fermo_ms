@@ -1,0 +1,44 @@
+{
+    "PeaktableParams": {
+        "filepath": "indir/benchmark_plm_quant_full.csv",
+        "format": "mzmine4",
+        "polarity": "positive"
+    },
+    "MsmsParams": {
+        "filepath": "indir/benchmark_plm.mgf",
+        "format": "mgf",
+        "rel_int_from": 0.01
+    },
+    "AdductAnnotationParams": {
+        "activate_module": true,
+        "mass_dev_ppm": 10.0
+    },
+    "NeutralLossParams": {
+        "activate_module": true,
+        "mass_dev_ppm": 10.0
+    },
+    "FragmentAnnParams": {
+        "activate_module": true,
+        "mass_dev_ppm": 10.0
+    },
+    "SpecSimNetworkCosineParams": {
+        "activate_module": true,
+        "msms_min_frag_nr": 5,
+        "fragment_tol": 0.1,
+        "score_cutoff": 0.7,
+        "max_nr_links": 10
+    },
+    "SpecSimNetworkDeepscoreParams": {
+        "activate_module": true,
+        "score_cutoff": 0.8,
+        "max_nr_links": 10,
+        "msms_min_frag_nr": 5
+    },
+    "FeatureFilteringParams": {
+        "activate_module": true,
+        "filter_rel_int_range_min": 0.1,
+        "filter_rel_int_range_max": 1.0,
+        "filter_rel_area_range_min": 0.1,
+        "filter_rel_area_range_max": 1.0
+    }
+}

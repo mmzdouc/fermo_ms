@@ -1,0 +1,17 @@
+ID1,ID2,EdgeType,Score,Annotation
+1215,1226,MS1 annotation,2,[M+H]+ [M+NH4]+ dm/z=17.02528
+1854,1859,MS1 annotation,2,[M+NH4]+ [M+2H]+2 dm/z=389.77916
+1854,1859,MS1 annotation,2,[2M+NH4]+ [M+H]+ dm/z=389.77916
+2692,2706,MS1 annotation,2,[2M+H]+ [M+Na]+ dm/z=820.48408
+2847,2848,MS1 annotation,2,[M+Na]+ [M+H]+ dm/z=21.98285
+2995,2996,MS1 annotation,2,[M+Na]+ [M+H]+ dm/z=21.98177
+3060,3062,MS1 annotation,2,[M+H]+ [M+Na]+ dm/z=21.98203
+3155,3156,MS1 annotation,2,[M+Na]+ [M+H]+ dm/z=21.98126
+3350,3352,MS1 annotation,2,[M+H]+ [M+Na]+ dm/z=21.98197
+3362,3368,MS1 annotation,2,[M+NH4]+ [M+H]+ dm/z=17.02627
+3683,3688,MS1 annotation,2,[M+Na]+ [M+H]+ dm/z=21.98188
+3735,3737,MS1 annotation,2,[M+NH4]+ [M+H]+ dm/z=17.02583
+3865,3866,MS1 annotation,3,[M+NH4]+ [M+H]+ dm/z=17.02915
+3865,3872,MS1 annotation,3,[M+Na]+ [M+H]+ dm/z=21.98313
+3866,3872,MS1 annotation,3,[M+Na]+ [M+NH4]+ dm/z=4.95398
+4130,4132,MS1 annotation,2,[M+NH4]+ [M+Na]+ dm/z=4.95356

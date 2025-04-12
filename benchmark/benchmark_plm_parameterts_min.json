@@ -1,0 +1,12 @@
+{
+    "PeaktableParams": {
+        "filepath": "indir/benchmark_plm_quant_full.csv",
+        "format": "mzmine4",
+        "polarity": "positive"
+    },
+    "MsmsParams": {
+        "filepath": "indir/benchmark_plm.mgf",
+        "format": "mgf",
+        "rel_int_from": 0.01
+    }
+}
