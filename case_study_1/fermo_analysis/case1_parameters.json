@@ -1,47 +1,47 @@
 {
-    "PeaktableParams": {
+    "PeaktableParameters": {
         "filepath": "case1/case1_quant_full.csv",
         "format": "mzmine3",
         "polarity": "positive"
     },
-    "MsmsParams": {
+    "MsmsParameters": {
         "filepath": "case1/case1.mgf",
         "format": "mgf",
         "rel_int_from": 0.0
     },
-    "PhenotypeParams": {
+    "PhenotypeParameters": {
         "filepath": "case1/case1_phenotype.csv",
         "format": "quantitative-percentage"
     },
-    "MS2QueryResultsParams": {
+    "MS2QueryResultsParameters": {
         "filepath": "case1/case1_ms2query.csv",
         "score_cutoff": 0.7
     },
-    "AdductAnnotationParams": {
+    "AdductAnnotationParameters": {
         "activate_module": true,
         "mass_dev_ppm": 15.0
     },
-    "SpecSimNetworkCosineParams": {
+    "SpecSimNetworkCosineParameters": {
         "activate_module": true,
         "msms_min_frag_nr": 12,
         "fragment_tol": 0.1,
         "score_cutoff": 0.7,
         "max_nr_links": 10
     },
-    "SpecSimNetworkDeepscoreParams": {
+    "SpecSimNetworkDeepscoreParameters": {
         "activate_module": true,
         "score_cutoff": 0.8,
         "max_nr_links": 10,
         "msms_min_frag_nr": 12
     },
-    "FeatureFilteringParams": {
+    "FeatureFilteringParameters": {
         "activate_module": true,
         "filter_rel_int_range_min": 0.0,
         "filter_rel_int_range_max": 1.0,
         "filter_rel_area_range_min": 0.01,
         "filter_rel_area_range_max": 1.0
     },
-    "PhenoQuantPercentAssgnParams": {
+    "PhenoQuantPercentAssgnParameters": {
         "activate_module": true,
         "sample_avg": "mean",
         "value": "area",

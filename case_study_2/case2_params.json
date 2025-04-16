@@ -1,56 +1,56 @@
 {
-  "PeaktableParams": {
+  "PeaktableParameters": {
     "filepath": "case2/20250310_all_CS_quant_full.csv",
     "format": "mzmine3",
     "polarity": "positive"
   },
-  "MsmsParams": {
+  "MsmsParameters": {
     "filepath": "case2/20250310_all_CS.mgf",
     "format": "mgf",
     "rel_int_from": 0.01
   },
-  "PhenotypeParams": {
+  "PhenotypeParameters": {
     "filepath": "case2/bioactivity_all_cs_perc_correct.csv",
     "format": "quantitative-percentage"
   },
-  "GroupMetadataParams": {
+  "GroupMetadataParameters": {
     "filepath": "case2/metadataFERMO_all_cs.csv",
     "format": "fermo"
   },
-  "MS2QueryResultsParams": {
+  "MS2QueryResultsParameters": {
     "filepath": "case2/20250310_all_CS_ms2query.csv",
     "score_cutoff": 0.7
   },
-  "AsResultsParams": {
+  "AsResultsParameters": {
     "directory_path": "case2/NZ_CP070373.1/",
     "similarity_cutoff": 0.7
   },
-  "AdductAnnotationParams": {
+  "AdductAnnotationParameters": {
     "activate_module": true,
     "mass_dev_ppm": 10.0
   },
-  "FragmentAnnParams": {
+  "FragmentAnnParameters": {
     "activate_module": true,
     "mass_dev_ppm": 10.0
   },
-  "NeutralLossParams": {
+  "NeutralLossParameters": {
     "activate_module": true,
     "mass_dev_ppm": 10.0
   },
-  "SpecSimNetworkCosineParams": {
+  "SpecSimNetworkCosineParameters": {
     "activate_module": true,
     "msms_min_frag_nr": 5,
     "fragment_tol": 0.1,
     "score_cutoff": 0.8,
     "max_nr_links": 5
   },
-  "SpecSimNetworkDeepscoreParams": {
+  "SpecSimNetworkDeepscoreParameters": {
     "activate_module": true,
     "msms_min_frag_nr": 5,
     "score_cutoff": 0.8,
     "max_nr_links": 10
   },
-  "PhenoQuantPercentAssgnParams": {
+  "PhenoQuantPercentAssgnParameters": {
     "activate_module": true,
     "sample_avg": "mean",
     "value": "area",
@@ -59,18 +59,18 @@
     "p_val_cutoff": 0.05,
     "coeff_cutoff": 0.7
   },
-  "BlankAssignmentParams": {
+  "BlankAssignmentParameters": {
     "activate_module": true,
     "factor": 10,
     "algorithm": "mean",
     "value": "area"
   },
-  "GroupFactAssignmentParams": {
+  "GroupFactAssignmentParameters": {
     "activate_module": true,
     "algorithm": "mean",
     "value": "area"
   },
-  "AsKcbCosineMatchingParams": {
+  "AsKcbCosineMatchingParameters": {
     "activate_module": true,
     "fragment_tol": 0.1,
     "min_nr_matched_peaks": 5,
